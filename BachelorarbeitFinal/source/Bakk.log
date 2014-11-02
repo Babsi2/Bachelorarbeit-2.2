@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  26 OCT 2014 22:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  2 NOV 2014 15:40
 entering extended mode
-**D:/FH/Sem5.2/Bakk*2/BachelorarbeitFinal/source/Bakk.tex
-("D:/FH/Sem5.2/Bakk 2/BachelorarbeitFinal/source/Bakk.tex"
+**D:/FH/Sem5.2/Bakk*2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex
+("D:/FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex"
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
 abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
@@ -1090,15 +1090,16 @@ File: german.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.aux"
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.aux"
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\biblatex\lbx\english.lbx"
 File: english.lbx 2013/11/25 v2.8a biblatex localization (PK/JW/AB)
 )
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Body.aux")
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Attachment.aux"))
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Body.aux")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Attachment.
+aux"))
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 115.
 LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 115.
@@ -1114,8 +1115,7 @@ LaTeX Font Info:    ... okay on input line 115.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 115.
 LaTeX Font Info:    Try loading font information for TS1+cmr on input line 115.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    ... okay on input line 115.
@@ -1151,13 +1151,12 @@ Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Bakk.bbl' found.
- ("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.bbl")
+ ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.bbl")
 Package biblatex Info: Reference section=0 on input line 115.
 Package biblatex Info: Reference segment=0 on input line 115.
 \AtBeginShipoutBox=\box34
 Package hyperref Info: Link coloring ON on input line 115.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
@@ -1169,11 +1168,11 @@ LaTeX Info: Redefining \ref on input line 115.
 LaTeX Info: Redefining \pageref on input line 115.
 LaTeX Info: Redefining \nameref on input line 115.
 
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.out")
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.out")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.out")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.out")
 \@outlinefile=\write5
 
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Title.tex"
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Title.tex"
 <images/FHSLogo.jpg, id=79, 1047.915pt x 289.08pt>
 File: images/FHSLogo.jpg Graphic file (type jpg)
  <use images/FHSLogo.jpg>
@@ -1183,11 +1182,11 @@ Package pdftex.def Info: images/FHSLogo.jpg used on input line 4.
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <D:/FH/Sem5.2/Bakk 2/Bache
-lorarbeitFinal/source/images/FHSLogo.jpg>])
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Affirmation.tex"
+lorarbeit-2.2/BachelorarbeitFinal/source/images/FHSLogo.jpg>])
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Affirmation
+.tex"
 LaTeX Font Info:    Try loading font information for OT1+lmr on input line 20.
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ot1lmr.fd"
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )<<ot1.cmap>>
 LaTeX Font Info:    Try loading font information for OML+lmm on input line 20.
@@ -1224,12 +1223,15 @@ LaTeX Font Info:    Try loading font information for U+msb on input line 20.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )) [1]
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Summary.tex") [2]
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Abstract.tex") [3]
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.toc")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Summary.tex
+") [2]
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Abstract.te
+x") [3]
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.toc")
 \tf@toc=\write6
- [4]
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Body.tex"
+
+[4] ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Body.te
+x"
 Underfull \hbox (badness 10000) in paragraph at lines 12--20
 
  []
@@ -1249,30 +1251,32 @@ File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [3
 
 ]
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.lof")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lof")
 \tf@lof=\write7
 
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.lol")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lol")
 \tf@lol=\write8
 
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.lot")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lot")
 \tf@lot=\write9
- [4]
+
+[4]
 LaTeX Font Info:    Try loading font information for T1+lmtt on input line 160.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ) [5]
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Attachment.tex") [6
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Attachment.
+tex") [6
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 164.
 
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Bakk.aux"
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Body.aux")
-("D:\FH\Sem5.2\Bakk 2\BachelorarbeitFinal\source\Attachment.aux"))
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.aux"
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Body.aux")
+("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Attachment.
+aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `Bakk.out' has not changed.
@@ -1281,12 +1285,12 @@ Package logreq Info: Writing requests to 'Bakk.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  17259 strings out of 493921
- 277188 string characters out of 3147258
+ 277967 string characters out of 3147258
  855067 words of memory out of 3000000
  20152 multiletter control sequences out of 15000+200000
  59860 words of font info for 46 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 52i,6n,50p,863b,4235s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,6n,50p,882b,4235s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}<C:/Program Files/M
 iKTeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/t
 ype1/public/lm/lmbxi10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/l
@@ -1294,7 +1298,7 @@ mr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Prog
 ram Files/MiKTeX 2.9/fonts/type1/public/lm/lmro12.pfb><C:/Program Files/MiKTeX 
 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /public/lm/lmtt12.pfb>
-Output written on Bakk.pdf (11 pages, 2168063 bytes).
+Output written on Bakk.pdf (11 pages, 2166590 bytes).
 PDF statistics:
  236 PDF objects out of 1000 (max. 8388607)
  50 named destinations out of 1000 (max. 500000)
