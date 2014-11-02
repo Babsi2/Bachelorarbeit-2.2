@@ -1,0 +1,5 @@
+[1] Config.pm:357> INFO - This is Biber 1.2
+[3] Config.pm:360> INFO - Logfile is 'Bakk.aux.blg'
+[11] biber-MSWIN:152> INFO - === %a %b %e, %Y, %H:%M:%S
+[314] Utils.pm:183> ERROR - Cannot find control file 'Bakk.aux.bcf'! - did you pass the "backend=biber" option to BibLaTeX?
+[315] Biber.pm:111> INFO - ERRORS: 1

@@ -1,0 +1,164 @@
+\NeedsTeXFormat{LaTeX2e}
+\documentclass[12pt,a4paper]{article}
+\usepackage{a4wide}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{floatflt}
+\usepackage{graphicx}
+\usepackage{color}
+\usepackage{subfig}
+\usepackage[english,ngerman]{babel}
+\usepackage{listings}
+\usepackage{url}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[]{acronym}
+\usepackage{footmisc}
+\usepackage[authordate,bibencoding=auto,strict,backend=biber]{biblatex-chicago} 
+\usepackage[babel,german=guillemets]{csquotes}
+\usepackage[nottoc]{tocbibind}
+\usepackage{cmap}
+\usepackage{lmodern} % Fuer Korrektur
+\usepackage{textcomp}
+\usepackage{hyperref}
+
+\hypersetup{
+    colorlinks,
+    citecolor=black,
+    menucolor =darkblue,
+    filecolor=black,
+    linkcolor=darkblue,
+    urlcolor=darkblue
+}
+
+\bibliography{D://FH/Sem5.2/Bakk 2/BachelorarbeitFinal/source/Bibliography}
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{5pt plus 2pt minus 1pt}
+
+%\overfullrule=1mm % Löschen
+\setlength{\emergencystretch}{1em}
+\newcommand{\inlinescript}[1]{\lstinline[breaklines=true]{#1}}
+\newcommand{\insc}[1]{\lstinline[breaklines=false]{#1}}
+\newcommand{\by}[1]{\citereset\cite{#1},~englisch}
+\newcommand{\byDE}[1]{\citereset\cite{#1}}
+\newcommand{\de}[3]{\citereset\cite[#3]{#1}}
+\newcommand{\en}[3]{\citereset\cite[#3]{#1},~englisch}
+
+\definecolor{lightgray}{rgb}{.9,.9,.9}
+\definecolor{darkgray}{rgb}{.4,.4,.4}
+\definecolor{purple}{rgb}{0.65, 0.12, 0.82}
+\definecolor{green}{rgb}{0, 0.5, 0}
+\definecolor{orange}{rgb}{1, 0.65, 0}
+\definecolor{darkblue}{rgb}{.0,.0,.25}
+
+
+\lstdefinelanguage{JavaScript}{
+  keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break, for, this, throw, svg},
+  keywordstyle=\color{purple}\bfseries,
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{darkgray}\ttfamily,
+  stringstyle=\color{green}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+}
+
+\lstset{
+	language=JavaScript,
+	basicstyle=\ttfamily,
+	tabsize=4,
+	numbers=left,
+	numberstyle=\footnotesize,
+  showstringspaces=false,
+  breaklines=true,
+  showtabs=false,
+  alsoletter={<>=-+},
+  literate={:}{{\textcolor{darkblue}{:}}}{1}
+  {+=}{{\textcolor{darkblue}{=}}}{1} 
+  {-=}{{\textcolor{darkblue}{=}}}{1} 
+  {++}{{\textcolor{darkblue}{++}}}{1}
+  {--}{{\textcolor{darkblue}{++}}}{1}
+}
+
+\lstdefinelanguage{SVG}
+{
+  morestring=[b]",
+  morestring=[s]{>}{<},
+  morecomment=[s]{<?}{?>},
+  stringstyle=\color{green},
+  identifierstyle=\color{darkblue},
+  keywordstyle=\color{darkblue},
+  morekeywords={xmlns,version,type}
+}
+
+\lstdefinelanguage{CSS}
+{
+  keywords={transition, property, duration, name, animation, @keyframes, from, to},
+  keywordstyle=\color{darkblue}\bfseries,
+  ndkeywords={div},
+  ndkeywordstyle=\color{green},
+  identifierstyle=\color{black},
+  sensitive=false,
+  comment=[l]{//},
+  morecomment=[s]{/*}{*/},
+  commentstyle=\color{darkgray}\ttfamily,
+  stringstyle=\color{green}\ttfamily,
+  morestring=[b]',
+  morestring=[b]"
+} 
+
+\selectlanguage{ngerman}
+
+\begin{document}
+
+\input{Title}
+
+\pagestyle{headings}
+\pagenumbering{roman}
+
+\input{Affirmation}
+
+\newpage
+\input{Summary}
+
+\newpage
+\input{Abstract}
+
+\newpage
+\tableofcontents
+
+\newpage
+\setcounter{page}{1}
+\pagenumbering{arabic}
+\include{Body}
+
+\newpage
+\section*{Abkürzungsverzeichnis}
+\markright{\MakeUppercase{Abkürzungsverzeichnis}}
+
+
+
+\begin{acronym}[OPTICS]
+\setlength{\itemsep}{0mm}
+ \acro{Abb.}{Abbildung}
+ \acro{z.B.}{zum Beispiel}
+ \acro{ca.}{cirka}
+ \acro{bzw.}{Beziehungsweise}
+\end{acronym}
+
+\newpage
+\listoffigures
+\lstlistoflistings
+\listoftables
+
+\newpage
+\sloppy
+\addcontentsline{toc}{section}{Literaturverzeichnis}
+\printbibliography
+
+\include{Attachment}
+\setlength{\parskip}{10pt}
+\end{document} 

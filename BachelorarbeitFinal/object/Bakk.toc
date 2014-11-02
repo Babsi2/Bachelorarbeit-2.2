@@ -1,0 +1,52 @@
+\select@language {ngerman}
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Schlagw\IeC {\"o}rter:}{ii}{section*.3}
+\defcounter {refsection}{0}\relax 
+\select@language {english}
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{Keywords:}{iii}{section*.5}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {1}Einleitung}{1}{section.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.1}Forschungsfrage}{1}{subsection.1.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {1.2}Aufbau}{1}{subsection.1.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {2}Generell was bedeutet stylen einer Website, wof\IeC {\"u}r gibt es css pre-processoren}{1}{section.2}
+\defcounter {refsection}{0}\relax 
+\select@language {ngerman}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.1}CSS 3}{1}{subsection.2.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.2}Less}{1}{subsection.2.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.3}Sass}{1}{subsection.2.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {2.4}Stylus}{1}{subsection.2.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {3}Implementierung}{1}{section.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.1}CSS 3}{1}{subsection.3.1}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.2}Less}{1}{subsection.3.2}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.3}Sass}{1}{subsection.3.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {3.4}Stylus}{1}{subsection.3.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {4}Praktische Anwendung und Vergleiche}{1}{section.4}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Ergebnisse}{2}{section.5}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Schluss}{2}{section.6}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Abbildungsverzeichnis}{4}{section*.8}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Tabellenverzeichnis}{4}{section*.10}
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Literaturverzeichnis}{5}{section*.10}
