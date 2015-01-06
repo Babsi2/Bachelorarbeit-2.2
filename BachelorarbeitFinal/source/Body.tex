@@ -17,38 +17,734 @@ derzeitiges Literaturverzeichnis:\newline
 \autocite[]{Hixon.2011}\newline
 \autocite[]{Page.2013}\newline
 \autocite[]{ZingDesign.2014}\newline
+\newpage
+\section{CSS-Präprozessoren}
+Präprozessoren sind Computerprogramme, welche Daten vorbereiten und zur Weiterverarbeitung an ein anderes Programm weitergeben. In den meisten fällen, wird ein Präprozessor dazu verwendet, Eingabedaten, im Falle dieser Arbeit CSS-Styles, zu konvertieren.\autocite[]{Peter.2012}\newline
+Präprozessoren werden verwendet um beispielsweise Variabilität zu schaffen.
+In dieser Arbeit geht es um die CSS-Präprozessoren Sass, Less und Stylus. Diese Präprozessoren werden verwendet, um das Schreiben des Codes zu erleichtern. Die Präprozessoren erleichtern die Syntax und stellen Funktionen und Variablen zur Verfügung. \newline
+Mithilfe der genannten Präprozessoren können Aufgaben automatisiert werden. Es gibt die Möglichkeit Variablen zu erstellen und so die Bearbeitung von Stylings wie z.B. der Farbe, um ein Vielfaches zu erleichtern. Möchte man in einem CSS file die Farbe der Schrift verändern, muss man alle Stellen suchen, an denen diese Farbe zugeordnet wird. Verwendet man beispielsweise mit less eine Variable für die Farbe, so muss nur an einer Stelle, dort wo die Farbe der Variablen zugewiesen wird, die Farbe geändert werden.\newline
+Nicht nur Variablen sondern auch Funktionen und Mixins werden von CSS-Präprozessoren bereit gestellt. Im Gegensatz zu einfachem CSS kann man also mit den genannten Präprozessoren Mixins erstellen, die dabei helfen den Code übersichtlicher zu Gestalten. Mit einem Mixin kann z.B. ein Clearfix erstellt werden. Hierfür wird folgender Code, in scss syntax, siehe Kapitel 2.3 was scss ist, erstellt:
+\begin{lstlisting}[
+	float=h,
+	caption=erstellen eines Mixins,
+]
+@mixin .clearfix {
+ content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
 
+.mainContent {
+  @include: .clearfix;
+}
+\end{lstlisting}
+\newline
+Die Zeilen 1 bis 7 in Listening 1 erstellen das Mixin \textit{clearfix} und in Zeile 10 wird gezeigt, wie dieses dann aufgerufen werden kann. Mit diesem Mixin kann vermieden werden, dass die in dem Mixin enthaltenen Stylings jedes mal erneut erstellt werden müssen. Stattdessen kann an jeder gewünschten Stelle im Code mit dem Befehl ''include:clearfix" der gesamte Codeabschnitt eingebunden werden.
 
-\section{Generell was bedeutet stylen einer Website, wofür gibt es css pre-processoren}
-\label{section:MathematicalStuff}
-hier vielleicht auch auf die Hilfsprogramme zum rendern von CSS eingehen. (Bsp. Compass oder Sassmeister)
+Ein weiterer Vorteil von CSS-Präprozessoren ist, dass der Code verschachtelt werden kann. Folgendes Listing zeigt, wie sich das verschachteln des Codes auf die Lesbarkeit auswirken kann. Listing 2 zeigt den Code ohne Verschachtelung und Listing 3 mit Verschachtelung:\newline
+\begin{lstlisting}[
+	float=h,
+	caption= Code ohne Verschachtelung,
+]
+#content .text .title{
+  font-size: 12px;
+  color: #dedede;
+  font-weight: normal;
+}
+#content .text .title h1{
+  font-size: 18px;
+  color: #ffffaa;
+  font-weight: bold;
+}
+#content .text .title h3{
+  color: #efefef;
+}
+\end{lstlisting}
 
-\selectlanguage{ngerman}
+\begin{lstlisting}[
+	caption= Code mit Verschachtelung,
+]
+#content .text{
+  .title{
+    font-size: 12px;
+    color: #dedede;
+    font-weight: normal;
+    h1{
+      font-size: 18px;
+      color: #ffffaa;
+      font-weight: bold;
+    }
+    h3{
+      color: #efefef;
+    }
+  }
+}
+\end{lstlisting}
 
-\subsection{CSS 3}
-bei den Unterkategorien wird auf Punkte wie Installation, generelle Verwendung mit kleinen Beispielen und Vor- und Nachteile der einzelnen Sprachen eingegangen.
+Wie in den 2 Listings gut zu sehen, ist der Sinn von CSS-Präprozessoren nicht immer, den code zu verkürzen. Jedoch kann man hier gut erkennen, dass die Schreibweise und Lesbarkeit des Codes vereinfacht wird. In Listing 2 wird Zeile 1 in Zeile 6 und 11 exakt wiederholt. Dies ist in Listing 3 nicht der Fall. Durch die Verschachtelung können beliebig viele Klassen, die sich innerhalb der Klasse text befinden, angesprochen werden, ohne dass man immer alle darüberliegenden Klassen aufrufen muss. \newline
+Man muss jedoch darauf achten, dass es nicht immer sinnvoll ist, den Code zu verschachteln. Hat man z.B. einen Button, der auf der ganzen Seite immer grün sein soll, macht es keinen Sinn, dem Button die Styles in einer Verschachtelung zu geben, da man dann immer darauf achten muss, dass der Button auch wirklich in diesem Abschnitt des Quellcodes auftritt. Stattdessen ist es hier sinnvoller, den Button separat zu stylen und bei etwaigen Änderungen, diese dann in der Verschachtelung anzuführen. So kann vermieden werden, dass der Code unübersichtlich wird, und der Button wird nur an bestimmten Stellen geändert.
 
+Neben den genannten Erweiterungen Less, Sass und Stylus zu CSS kann man zusätzlich den Workflow verbessern. Werden die Präprozessoren richtig verwendet kann der Code sauberer und auch kürzer gehalten werden.\newline
+Durch den Einsatz der Erweiterungen, kann ein komplexer Code vereinfacht werden, wodurch der Code wartbarer und übersichtlicher wird. Auch kann der Zeitaufwand für die Erstellung der Stylesheets verkürzt werden, da Beispielsweise Code, der häufig verwendet wird, mithilfe eines Mixins nur einmal definiert werden muss.\newline\newline
+Der Begriff Workflow beschreibt eine Abfolge von Atkivitäten. In Zusammenhang mit dieser Arbeit, bedeudet Workflow die Ausführung verschiedener Arbeitsschritte in einer definierten Abfolge.\newline
+Der erste Arbeitsschritt bei der Erstellung eines Webseitenstylings ist die Erstellung eines Stylesheets. In dieser Arbeit werden less, sass und stylus behandelt. Es wird also entweder eine style.less, eine style.sass bzw. style.scss oder eine style.styl erstellt. \newline
+Um diese Styles richtig auf der Webseite ausgeben zu können, folgt der nächste Arbeitsschritt. Die Kompilierung der Dateien in CSS.\newline
+Für die Kompilierung gibt es für jeden der genannten CSS-Präprozessoren einige ThirdPartyLibraries wie z.B. Koala für Sass und Less oder CodeKit, welche less, stylus und sass kompiliert. \newline
+Wie im vorherigen Absatz erwähnt, kann durch die Verwendung der Erweiterungen der Workflow verbessert werden, da der erste Arbeitsschritt schneller und verbessert durchgeführt werden kann. \newline
+Die 2 genannten Libraries Koala und CodeKit ermöglichen es, die erstellten Stylesheets in Echtzeit zu kompilieren, so kann der Workflow ein weiteres mal verbessert werden, da die Erstellung des Stylesheets und dessen Kompilierung parallel ablaufen.\newline\newline
+Der Code von CSS-Präprozessoren ist immer valides CSS, da die Präprozessoren Erweiterungen von CSS darstellen. Die am Beginn des Kapitels genannten Präprozessoren sind drei der bekanntesten CSS-Präprozessoren, es gibt jedoch noch sehr viele andere, wie zum Beispiel Turbine oder Switch CSS \autocite[]{Jung.2010}.
+
+Um zu überprüfen, ob das geschriebene stylesheet valide ist und gute Qualität hat, gibt es Linting. Linting ist die Überprüfung von CSS auf Validität und Codequalität. Es gibt einige OpenSource Tools, die die Überprüfung des Stylesheets einfach und schnell ermöglichen. Ein gutes OpenSource Tool ist z.B. CSSLint von Nicolas C. Zakas und Nicole Sullivan\footnote[1]{open source Tool zur Überprüfung von CSS: https://github.com/CSSLint/csslint/wiki/About.}\newline
+Neben der Überprüfung der Codequalität werden mit Linting auch die Browserperformance und viele weitere Punkte wie z.B.
+\begin{itemize}
+  \item Parsing Fehler
+  \item leere Anweisungen
+  \item Nullwerte benötigen keine Einheiten
+  \item keine IDs in Selektoren
+  \item nicht zu viele Floats verwenden
+  \item nicht zu viele Schriften verwenden
+\end{itemize} 
+gecheckt. \newline\newline
+Wie zuvor beschrieben, bieten CSS-Präprozessoren einige Vorteile, können jedoch auch Nachteile haben,  wenn sie falsch verwendet werden. Diese Arbeit vergleicht die 3 bekanntesten CSS-Präprozessoren, aber nicht mit dem Ziel herauszufinden, welche Variante die Beste ist. Es gibt keinen \grqq{Besten}\glqq{} Präprozessor.\newline
+Welchen Präprozessor man verwendet bzw. benötigt liegt im Interesse jedes einzelnen. Hier einige Meinungen, von Programmierern, die mit Less, Sass bzw. Scss oder Stylus arbeiten. 
+\begin{quote}
+``Less, because it is intuitive and also is the engine inside Twitter Bootstrap. So if you want to edit Bootstrap CSS you edit using Less."(Stephanie Hughes, zitiert nach \cite[]{psdtowp.2014})
+\end{quote} 
+\begin{quote}
+``I use LESS as a CSS preprocessor. ... I like it because it's closest to vanilla CSS. This way, if you find yourself in a situation where you have to fix something in pure CSS, you haven't forgotten how to do so, by working in LESS.
+
+In general, I'm a big fan of preprocessors. They allow you to programmatically style your site or app, and they make writing clean, DRY, Object-Oriented CSS much easier."(Jamie Marcus, zitiert nach \cite[]{psdtowp.2014})
+\end{quote} 
+\begin{quote}
+``I have surrendered to SCSS …it has the best tooling support (including Chrome) and the most devs using it. I *really* like the others too and have zero qualms about them."(Brian Leroux, zitiert nach \cite[]{psdtowp.2014})
+\end{quote} 
+\begin{quote}
+``Yeah, I use Sass for Css3 and Coffee for JS. Stylus is good if you work with Jade project. SCSS and Less its basicly same, but I prefer Sass, it's more clean and powerfull."(Gustavo Fernandes, zitiert nach \cite[]{psdtowp.2014})
+\end{quote} 
+\begin{quote}
+``Yes I do - I’m on the SCSS train for about a year now. It actually made writing stylesheets fun again. I think there is no reason to not use a CSS Preprocessor language since the entry barrier is low and the amount of extra features one can use flexible and optional. I got used to the major features such as nesting, variables, extends or mixins with conditionals etc. and can’t image for a second going back to plain old CSS."(Fabricio Marques, zitiert nach \cite[]{psdtowp.2014})
+\end{quote} 
+\begin{quote}
+``I use Scss because most projects use it and Stylus on my own projects. I'm really fond of the stylus syntax, the fact that it makes my stack 100% JavaScript and find that it's by far the fastest compiler."(Wes Bos, zitiert nach \cite[]{psdtowp.2014})
+\end{quote} 
+Aus den Zitaten geht klar hervor, dass jeder seine eigenen Gründe hat, warum er sich für einen CSS-Präprozessor entschieden hat. \newline
+Welchen CSS-Präprozessor man verwendet hängt auch sehr davon ab, für welches Projekt man ihn verwendet und wie man sonst arbeitet.\newline
+
+Das gelesene Kapitel beschreibt den Nutzen und die Verwendung von CSS-Präprozessoren und soll erläutern, welche Vorteile und Nachteile so ein Präprozessor bietet.
+\subsection{Software Komponenten}
+Software Komponenten (im weiteren Verlauf als Komponenten bezeichnet) sind wiederverwendbare Bausteine einer Applikation, welche aus Software Code bestehen. Komponenten implementieren spezifische Funktionalitäten gemeinsam mit vordefinierten Schnittstellen. Da es sich um wiederverwendbare Teile von Code handelt, sind Komponenten sogenannte Software-Bausteine, die einen bestimmten Bereich eines Geschäftsfeldes kapseln, jedoch keine abgeschlossene Applikation darstellen, und nicht für sich alleine ablaufen können. \autocite[1]{Andresen.2003}\newline
+In Bezug auf diese Arbeit, sind bspw. Grids Komponenten von CSS-Präprozessoren. Grids sind eine Layout-Komponente von CSS-Präprozessoren. Diese Komponente kann wiederverwendet werden und bildet einen eigenschändigen Bereich des CSS-Präprozessors. Wie beschrieben, ist sie jedoch keine abgeschlossene Applikation und kann nicht alleine Ablaufen.
+
+Im Buch von Andreas Andresen, Komponentenbasierte Softwareentwicklung, \autocite[]{Andresen.2003} werden auf Seite 2 einige Vorteile von Komponenten aufgezählt. Die wichtigsten für diese Arbeit sind folgende:
+\begin{itemize}
+  \item überschaubare Größenordnung
+  \item trennen Zuständigkeiten
+  \item einfach einsetzbar und kombinierbar
+  \item einfach wiederverwendbar
+  \item fördern eine schnelle Applikationsentwicklung
+  \item einfach austauschbar
+\end{itemize} 
+Neben Vorteilen gibt es auch noch wichtige Anforderungen an die Architektur von Komponenten, welche anhand des genannten Beispiels von Grids, näher erklärt werden. Die wichtigesten Anforderungen, welche wie erwähnt noch näher erklärt werden, sind: 
+\begin{itemize}
+  \item die Ermöglichung  einer einfachen Kommunikation von System und Komponente untereinander
+  \item komplexe Zusammenhänge innerhalb von Systemen und zwischen Komponenten und Systemen müssen auf übersichtliche und einfache Weise strukturiert werden können.
+  \item Komponenten und Systeme müssen effizient dimensioniert werden
+  \item bestehende Komponenten müssen einfach integrierbar sein
+  \item eine einfach Wiederverwendung der Komponenten muss ermöglicht werden
+  \item die Zuständigkeit muss klar getrennt sein
+  \item das System muss die Anforderungen in Bezug auf Robustheit, Zuverlässigkeit, Performance, Siherheit und Skalierbarkeit erfüllen
+\end{itemize} \autocite[6]{Andresen.2003}
+
+Ein Grid ist eine Layout Komponente. Das heißt, das Grid kümmert sich um die visuelle Anordnung von Komponenten in einem übergeordneten Container. 
+\newpage
 \subsection{Less}
+Less ist einer der genannten CSS-Präprozessoren und wird in diesem Kapitel genauer erklärt.\newline
+Entwickelt wurde und wird Less von Alexis Sellier. Die Entwicklung begann im Jahr 2010 und geht immer weiter.\newline
+Less ist wie auch die Syntax-Variante SCSS von Sass ein Superset und kann somit ohne Probleme in eine CSS datei eingefügt werden. Verwendet man Less, kann man also bei einer CSS Datei einfach die Endung in .less umändern und man hat eine funktionstüchtige Less-Datei in der man die zusätzlichen Eigenschaften von Less einbauen und verwenden kann. \newline
+Less verwendet dieselbe Syntax wie css und bietet wie auch Stylus und Sass die Möglichkeit der Verschachtelung und der Verwendung von Features wie Variablen, Mixins, Vererbung und Funktionen.\newline
+Im Gegensatz zu Sass, ist Less eine Javascript Library, die wie jede andere Javascript Library im HTML Head eingebunden wird. Zu Beachten ist, dass vor der Einbindung der js Datei die Stylesheets geladen werden. \newline
+Um mit Less arbeiten zu können benötigt man also weder eine Commandozeile noch irgendwelche Tools wie Rhino oder Nodejs.
+Beispiel Einbindung:
+\begin{lstlisting}[
+	caption= Einbindung Less,
+]
+//erst das Stylesheet, dann die js datei.
+<link rel="stylesheet/less" type="text/css" href="styles.less">
+<script src="less.js" type="text/javascript"></script>    
+\end{lstlisting}
+Diese Einbindung ist die Einfachste Art Less zu verwenden, jedoch gilt das nur für die Client-seitige Verwendung und mit dieser Einbindung, läuft Less nur mit modernen Browsern.\newline
+Um die Less Datein automatisch laden zu können, gibt es ein Client-seitiges Feature, den Watch mode. Um diesen zu aktivieren, kann man entweder \grqq\#!watch\glqq{} an die URL im headbereich schreiben und die Datei neu laden, oder in der Konsole \grqq{less.watch()}\glqq{}   aufrufen.\newline
+Für eine Serverseitige Verwendung wird less mit nodejs installiert. Somit kann nach der installation kann die Datei styles.less mit dem Compiler in Node in eine css datei kompiliert werden.\autocite[]{Sellier.2013}
 
+Für die Kompilierung der Less Dateien gibt es einige andere Third Party Tools, wie zum Beispiel SimpLESS oder WinLESS, welche beide Gratis sind.\newline
+In einem späteren Kapitel wird noch auf die Verwendung der genannten Erweiterungen mit Less eingegangen.
+\newpage
 \subsection{Sass}
-hier eventuell auch kurz auf haml eingehen.
-Unterschiede zwischen Sass und Scss erklären. 
+Sass ist eine Erweiterung von CSS3, welche Variablen, Mixins, Selectoren, Funktionen und andere Erweiterungen anbietet. Somit ist Sass ein Präprozessor, welcher schon in einem früheren Kapitel erklärt wurde, von CSS.\newline
+Einer der größten Vorteile eines CSS-Präprozessors ist, dass man in der Entwicklung verschiedene Dateien haben kann, ohne Performance einzubüßen.\newline
+Um Sass in CSS umzuwandeln, verwendet man entweder die Kommandozeile oder eines von verschiedenen web-frameworks welche die notwendigen Funktionen bereitstellen. Darauf wird später noch genauer eingegangen.\newline
+Für Sass gibt es zwei verschieden Syntaxen. Die Ursprüngliche Syntax verwendet die Dateiendung .sass und verwendet Einrückungen statt der geschwungenen Klammern um die Verschachtelung der Selektoren anzuzeigen und Zeilenumbrüche statt eines Semicolons um die Eigenschaften zu trennen.\newline
+Die neuere Syntax verwendet die Dateiendung .scss. Hier werden im Gegensatz zur alten Syntax wieder Klammern und Semicolon verwendet.  \autocite[]{Yard.2014}\newline
+Folgender Codeausschnitt zeigt eine CSS-Datei mit der ursprüngliche Sass Syntax:
+\begin{lstlisting}[
+	caption= Code in ursprünglicher Syntax,
+]
+#content .text
+    .title
+        font-size: 12px
+        color: #dedede
+        font-weight: normal
+        h1
+           font-size: 18px
+           color: #ffffaa
+           font-weight: bold
+    
+    h3
+        color: #efefef
+    
+\end{lstlisting}
+
+Nachfolgene Listing zeigt nun einen Codeausschnitt einer CSS-Datei mit der scss Syntax:
+\begin{lstlisting}[
+	caption= Code mit in scss Syntax,
+]
+#content .text{
+  .title{
+    font-size: 12px;
+    color: #dedede;
+    font-weight: normal;
+    h1{
+      font-size: 18px;
+      color: #ffffaa;
+      font-weight: bold;
+    }
+    h3{
+      color: #efefef;
+    }
+  }
+}
+\end{lstlisting}
+
+Wie schon erwähnt bietet Sass die Möglichkeit von Variablen, Funktionen, Mixins und vielem Mehr.
+Im nachfolgenden Abschnitt wird näher darauf eingegangen.
+\newpage
 \subsection{Stylus}
+Stylus ist ein CSS-Präprozessor der mit Nodejs läuft.  Die Dateiendung von Stylus ist .styl.\newline
+Mit dem Befehl \grqq{npm install stylus -g}\glqq{} lässt sich stylus über nodejs installieren und verwenden. \newline
+Die Syntax von Stylus ist ähnlich der von Sass. Wie auch bei Sass, können bei Stylus die Klammern und die Semicolons weggelassen werden.\newline
+Verwendet man diese Syntax ist Stylus kein Superset von CSS und nicht rückwärtskompatibel.\newline
+Die Schreibweise der Syntax ohne Klammern und Semicolons ist optional und es kann auch die normale CSS-Syntax angewandt werden.\newline
+Es ist auch möglich, die Syntaxen zu vermischen. Folgender Code zeigt beide Syntaxen in einer Datei:
+\begin{lstlisting}[
+	caption=style.styl,
+]
+//Mixin in Stylus
+border-radius()
+   -webkit-border-radius: arguments;
+   -moz-border-radius: arguments;
+   border-radius: arguments;
+//Verwendung der normalen CSS-Syntax
+ body a {
+   font: 12px/1.4 "Lucida Grande", Arial, sans-serif;
+   background: black;
+   color: #ccc;
+ }
+//Verwendung der Stylus Syntax ohne Klammern, aber mit Semicolons
+ form input
+   padding: 5px;
+   border: 1px solid;
+   border-radius: 5px;
+\end{lstlisting}
+\autocite[]{LearnBoost.2010}\newline
 
-\section{Implementierung}
-Hier wird denke ich genauer erklärt, wie die Tools bei dem, für den pratkischen Teil verwendeten, Projekt implemetiert werden müssen und welche  Vorraussetzungen das Projekt besitzen muss um die jeweilige Sprache verwenden zu können.
+In diesem Codebeispiel wird zuerst ein Mixin erstellt. Hier ist zu sehen, dass dies mit Stylus anders funktioniert als mit Less oder Sass. Darauf wird aber später noch genauer eingegangen.\newline
+Die codezeilen 8 bis 12 sind normales CSS und der letzte Abschnitt ist sowohl Stylus-Syntax als auch CSS-Syntax. Es werden keine Klammern gemacht, jedoch Semicolons.\newline
+Wie der Code aus Listing 7 zeigt, ist Stylus in der Benützung sehr einfach, da es egal ist, ob nun Klammern und Strichpunkte gemacht werden oder nicht.
+\subsection{Erweiterungen von CSS Präprozessoren}
+In diesem Kapitel wird auf Variablen, Mixins, Funktionen und Vererbung von Css-Präprozessoren eingegangen. Es wird erklärt wie diese Komponenten generell verwendet werden. Bei den einzelnen Codebeispielen wird angegeben mit welchem Css-Präprozessor dieser umgesetzt wurde. In einem späteren Kapitel wird die Verwendung jeder Komponente für jeden CSS-Präprozessor im detail beschrieben.
+\subsubsection{Variablen}
+Variablen, sind eine Erweiterung der CSS-Präprozessoren gegenüber CSS3 und sind gänzlich gleich wie Variablen in anderen Programmiersprachen.
+Bei einem großen Projekt mit einigen Grundfarben oder Schriftarten, welche an vielen Stellen im Code verwendet werden, wird somit ermöglicht am Beginn der Datei oder in einer separaten Datei die Variable zu erstellen und ihr einen Wert zuzuweisen. Somit muss in der restlichen Datei nur die Variable aufgerufen werden und bei einer Änderung muss diese nur bei der Zuweisung der Variable geschehen und nicht wie bei CSS an allen Stellen, wo diese verwendet wird.\autocite[]{Yard.2014} \newline
+Im Zusammenhang der Erstellung einer Variablen in einer eigenen Datei, ist die Variable \textbf{@import}, welche es ermöglicht, in der Entwicklung so viele Datein zu haben, wie man möchte und diese dann in der Produktion zu einer einzigen Datei zusammen zu fügen, sehr interessant\autocite[]{Giraudel.2014}.\newline
+In der Entwicklung ist es sehr hilfreich die CSS-Datein aufzuteilen, um einen guten Überblick zu schaffen und auch die Größe der Datei beschränken zu können.
+\begin{quote}
+``Multiple files in dev, a single file in prod."(Bruce Lee, zitiert nach \cite[]{Giraudel.2014})
+\end{quote}
 
-\subsection{CSS 3}
+Nachfolgene Listings zeigen eine Datei für die Variablen und eine Datei, in der die Variablen verwendet werden. Die Listings werden in scss syntax geschrieben.
+\begin{lstlisting}[
+	caption=variables.scss,
+]
+$primaryFont: normal 13px 'condensed light';
+$primaryColor: #efefef;
+\end{lstlisting}
+\begin{lstlisting}[
+	caption=style.scss,
+]
+@import 'variables.scss';
 
-\subsection{Less}
+#content .text{
+  .title{
+    font: $primaryFont;
+    color: $primaryColor;
+  }
+}
+\end{lstlisting}
 
-\subsection{Sass}
+\subsubsection{Mixin}
+Ein Mixin ist eine Classe in CSS, welche viel Ähnlichkeit mit einer Funktion in einer anderen Programmiersprach, z.B. PHP, hat.\newline 
+In dieser Verwendung ist ein Mixin eine Gruppe von CSS Anweisungen in einer Klasse. Mixins erlauben es, sämtliche Eigenschaften der erstellten Klasse in einer anderen Klasse aufzurufen.\newline
+Beispielsweise hat man ein Mixin mit dem Namen RoundBorders, welches die Klasse .RoundBorders erstellt. Diese Klasse .RoundBorders kann man nun ganze einfach in einer anderen Klasse oder auch einer id, z.B. \#menu, aufrufen.\autocite[]{Gerchev.2012}\newline
+Folgender Code veranschaulicht das aufrufen eines Mixins (alle Folgenden Codebeispiele zum Mixin sind in Less geschrieben):
+\begin{lstlisting}[
+	caption=Mixin,
+]
+//Mixin RoundBorders
+.RoundBorders {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
 
-\subsection{Stylus}
+#menu {
+  color: gray;
+  .RoundBorders;
+}
+\end{lstlisting}
+In Listing 8 wird in den Zeilen 2 bis 6 das Mixin RoundBorders erstellt. In Zeile 9 wird dieses Mixin aufgerufen. Somit erhält die ID menu die Eigenschaften aus der Klasse RoundBorders.\newline
+Die Ausgabe von Listing 8 wird in Listing 9 dargestellt:
+\begin{lstlisting}[
+	caption=Mixin Ausgabe,
+]
+//Mixin RoundBorders
+.RoundBorders {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#menu {
+  color: gray;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+\end{lstlisting}
+
+Wenn das Mixin in der Ausgabe nicht angezeigt werden soll, kann man dies mit Klammern bewerkstelligen, wie in folgender Listing, in Zeile 2, gezeigt.\autocite[]{thecorelessteam.}\newline
+\begin{lstlisting}[
+	caption=Mixin und Ausgabe ohne Mixin,
+]
+//Mixin RoundBorders
+.RoundBorders() {
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+
+#menu{
+  color: gray;
+  .RoundBorders;
+}
+
+//Ausgabe:
+#menu {
+  color: gray;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+\end{lstlisting}
+Das erstellte Mixin kann somit im gesamten Code verwendet werden. Werden die im Mixin festegelegten Anweisungen in einem Projekt oft benötigt, können damit viele Codezeilen und vorallem Codeduplikationen vermieden werden.
+
+Mixins können auch Argumente oder Selectoren beinhalten. \newline
+Soll beispielsweise in einem Mixin für einen abgerundeten Rahmen der Radius variabel bleiben, kann dieser als Argument übergeben werden. Der Code für das Mixin und für die Einbindung in eine Klasse sieht in Less folgendermaßen aus:
+\newpage
+\begin{lstlisting}[
+	caption=Mixin mit Argument,
+]
+//Mixin
+.border-radius(@radius) {
+  -webkit-border-radius: @radius;
+     -moz-border-radius: @radius;
+          border-radius: @radius;
+}
+
+.button {
+  .border-radius(6px);
+}
+\end{lstlisting}
+Wie in Listing 11 zu sehen, wird in Zeile 9 der Radius von 6px mitübergeben. \autocite[]{thecorelessteam.}\newline 
+Eine besondere Variable im Zusammenhang mit Mixins ist @arguments. Mit dieser Variable werden alle Argumente, die dem Mixin mitgegeben werden, angewendet. \autocite[]{Gerchev.2012}
+\begin{lstlisting}[
+	caption=Mixin mit @arguments,
+]
+//Mixin
+.BoxShadow(@x: 0, @y: 0, @blur: 1px, @color: #000) {
+  box-shadow: @arguments;
+  -moz-box-shadow: @arguments;
+  -webkit-box-shadow: @arguments;
+}
+
+.BoxShadow(2px, 5px);
+
+//Ausgabe
+box-shadow: 2px 5px 1px #000;
+-moz-box-shadow: 2px 5px 1px #000;
+-webkit-box-shadow: 2px 5px 1px #000;
+\end{lstlisting}
+Wie schon erwähnt können Mixins auch Selectoren beinhalten. Das heißt, es kann in einem Mixin auch ein hover Effekt oder ein Aktivstatus angegeben werden.
+\begin{lstlisting}[
+	caption=Mixin mit Selector,
+]
+//Mixin
+.my-hover-mixin() {
+  &:hover {
+    border: 1px solid red;
+  }
+}
+button {
+  .my-hover-mixin();
+}
+
+//Ausgabe
+button:hover {
+  border: 1px solid red;
+}
+\end{lstlisting}
+Mixins können bei jedem der, in dieser Arbeit vorgestellten, CSS-Präprozessoren verwendet werden, die Schreibweise unterscheidet sich jedoch. Darauf wird später noch genauer eingegangen.
+\subsubsection{Funktionen}
+Funktionen bei CSS-Präprozessoren sind denen in anderen Programmiersprachen sehr ähnlich. Mit Funktionen, kann man beispielsweise zwei Pixelwerte addieren, subtrahieren, dividieren und multiplizieren. Wie die Implementierung der Funktionen bei den, in dieser Arbeit verwendeten, CSS-Präprozessoren funktioniert, wird in einem späteren Kapitel erklärt.
+\subsubsection{Vererbung}
+Verberbung bedeuted, dass die Eigenschaften einer Klasse in einer anderen Klasse vererbt werden können. Im Falle dieser Arbeit hat zum Beispiel die Klasse .message dieselben Eigenschaften wie die Klasse .warning mit ein paar zusätzlichen Eigenschaften. Durch die Möglichkeit der Vererbung bei CSS-Präprozessoren kann nun vermieden werden den Code zu duplizieren. Folgender Code zeigt, wie mit der Variable extend eine Klasse innerhalb einer anderen Klasse aufgerufen und so deren Eigenschaften vererbt werden können:
+\begin{lstlisting}[
+	caption=Vererbung mit extend,
+]
+.message {
+    padding: 10px;
+    border: 1px solid #eee;
+  }
+
+  .warning {
+    @extend .message;
+    color: #E2E21E;
+  }
+\end{lstlisting}
+Der Code in Listing 16 ist in SCSS syntax geschrieben. In Zeile 7 werden mit @extend die Eigenschaften der Klasse .message vererbt. In allen vorgestellten CSS-Präprozessoren wird zur Vererbung dieselbe Variable verwendet, jedoch unterscheidet sich die Schreibweise in Stylus und Sass bzw. Scss von der Schreibweise in Less. Darauf wird in einem späteren Kapitel noch eingegangen.
+\newpage
+\section{Superset} 
+Ein Superset ist eine sogenannte Obermenge. Der Begriff Superset kommt aus der Mengenlehre und bedeutet, dass B ein Superset von A ist, sobald A in B enthalten ist. Bezogen auf diese Arbeit heißt das, dass Beispielsweise Scss, eine Syntax-Variante von Sass, ein Superset von CSS3 ist.\newline
+Sobald das CSS3 valide ist, hat man auch ein valides SCSS. Umgekeht gilt das jedoch nicht.  Vorteilhaft ist, dass schon vorhandener CSS3-Code einfach weiterverwendet werden kann und mit SCSS erweiterbar ist. Um also eine vorhandene CSS3-Datei in SCSS umzuwandeln, muss nur die Dateiendung von .css auf .scss umgeschrieben werden.
+
+Von den, in dieser Arbeit genannten, Programmiersprachen Less, Sass und Stylus sind nur die Syntax-Variante SCSS, von Sass, und Less jeweils ein Superset von CSS. \newline
+Der Begriff Superset darf nicht mit dem Begriff Erweiterung verwechselt werden.\newline
+Bei einer Obermenge ist dessen Untermenge immer Valide für die Obermenge, das heißt bei einem Superset wie SCSS ist das CSS, die Untermenge, immer valides SCSS.\newline
+Bei den Erweiterungen Sass und Stylus gilt dies jedoch nicht, da die Syntax dieser Präprozessoren nicht dieselbe von CSS3 ist. Auf die Syntax und die Unterschiede wird in einem späteren Kapitel noch näher eingegangen.
+
+\section{Lexer/Parser}
+Parser: Programm zur Zerlegung und Umwandlung einer beliebigen Eingabe, welche zur Weiterverarbeitung in ein brauchbares Fromat umgewandelt wird. Ein Parser erzeugt zusätzliche Strukturbeschreibungen. Parsing bedeuted Syntaxanalyse. \newline
+Der Parser verwendet zur Analyse von Text einen lexikalischen Scanner, auch Lexer genannt. Ein Lexer zerlegt die Eingabe in sogenannte Tokens (beispielsweise Wörter oder Eingabesymbole) die der Parser versteht. \newline
+Bei einem HTML Code würde der Lexer die Datei ind HTML-Tags und Fließtext zerteilen und so an den Parser weiterleiten. Den Lexer interessiert nur das Aussehen der Syntaxelemente wie z.b. die spietzen Klammern eines Tags. Der Parser verarbeitet dann die syntaktischen Zusammenhänge. Er untersucht also, welche Paar von Tags zusammengehören oder wie diese verschachtelt sind. Die inhaltliche Bedeutung der Tags interessiert den Parser nicht, dafür ist dann die Weiterverarbeitung zuständig.
+
+Im Falle dieser Arbeit würde also der Lexer die Datei welche in Less, Stylus oder Sass bzw. Scss geschrieben wurde, zerlegen. In diesem Fall interessieren den Lexer beispielsweise die Klammern und die Strichpunkte oder wie in Sass die Abstände und Einrückungen.
+\newpage
 
 
+\section{Implementierugen von CSS Präprozessoren}
+\subsection{Variablen}
+Variablen sind wie schon in Kapitel 2.5.1 beschrieben, eine Erweiterung der CSS-Präprozessoren. Mithilfe der Variablen können Werte am Beginn des Stylesheets definiert werden und an jeder Stelle im Code wiederverwendet werden. In diesem Kapitel wird die Verwendung von Variablen mit Less, Stylus und Sass erläutert. Im großen und ganzen ist die Verwendung sehr ähnlich und es werden hier nur die Unterschiede näher betrachtet.
+\subsubsection{Less}
+In Less wird die Variable mit dem Zeichen \grqq{@}\glqq{} gekennzeichnet. Folgende Listing zeigt die Initialisierung der Variable und die anschließende Verwendung im Code:
+\begin{lstlisting}[
+           caption=Verwendung Variable in less,
+]
+@color: #4D926F;
+
+#header {
+  color: @color;
+}
+h2 {
+  color: @color;
+}
+\end{lstlisting}
+Wie in Zeile 4 zu sehen, muss die Variable wieder mit dem \grqq{@}\glqq{} Zeichen aufgerufen werden. Ohne dem  \grqq{@}\glqq{} Zeichen wird keine Farbe mitgegeben.
+\subsubsection{Sass}
+Wie auch in Less gibt es für Sass eine eigene Schreibweise für Variablen. Diese Schreibweise gilt für beide Syntaxvarianten von sass.
+\begin{lstlisting}[
+           caption=Verwendung Variable in sass,
+]
+$color: #4D926F;
+
+#header {
+  color: $color;
+}
+h2 {
+  color: $color;
+}
+\end{lstlisting}
+Der Code in Listing 18 zeigt die Verwendung einer Variable in Sass. Zeile 1 zeigt, dass die Variable mit \grqq{\$}\glqq{} dargestellt werden muss. Auch bei der Verwendung muss, wie bei less das Zeichen \grqq{@}\glqq{}, das Zeichen \grqq{\$}\glqq{} vorangestellt werden, damit die Variable richtig erkannt wird.
+\subsubsection{Stylus}
+Im Gegensatz zu Less und Sass muss bei Stylus kein Sonderzeichen vor die Variable gesetzt werden, jedoch kann die Schreibweise von Sass verwendet und vor die Variable das Zeichen \grqq{\$}\glqq{} geschrieben werden. Nachfolgender Code zeigt beide Schreibweisen von Variablen in stylus:
+\begin{lstlisting}[
+         caption=Verwendung Variable in stylus,
+]
+\\Initialisierung Variable ohne Sonderzeichen
+font-size = 14px
+font = font-size "Lucida Grande", Arial
+\\Verwendung Variable
+body
+  font font, sans-serif
+
+\\Initialisierung Variable mit Sonderzeichen
+$font-size = 14px
+\\Verwendung Variable
+body {
+  font: $font-size sans-serif;
+}
+\end{lstlisting}
+Wie die Listing zeigt, wird in Zeile 2 und 3 die Variable ,font-size' bzw. ,font' ohne voransetzen eines Sonderzeichens initialisiert. Somit wird auch beim Aufruf der Variable kein Sonderzeichen vorangestellt. Wie in Zeile 3 zu sehen, wird die Variable ,font-size' direkt in der Variable ,font' aufgerufen. Dadurch muss in Zeile 6 bei der Verwendung nur die Variable ,font' aufgerufen werden.\newline
+In Zeile 9 wird die Variable wie bei Sass mit dem Zeichen \grqq{\$}\glqq{} initialisiert. Dadurch ist auch die Verwendung ident mit der von Sass.\newline\newline
+Die letzten 3 Unterkapitel zeigen, dass eine Variable in den 3 beschriebenen CSS-Präprozessoren bis auf die verwendeten Sonderzeichen gleich erstellt und verwendet werden.\newline
+Im nächsten Kapitel wird die Verwendung von Mixins näher betrachtet.
+\subsection{Mixins}
+Mixins sind eigene Klassen, welche am Beginn des Stylesheets erstellt werden und fortlaufend im ganzen Stylesheet wiederverwendet werden können. \newline
+In Kapitel 2.5.2 wurde beschrieben, was Mixins sind und wie sie im generellen funktionieren. Im folgenden, wird für jeden Präprozessor im detail erklärt, wie ein Mixin formuliert und angewendet wird.
+\subsubsection{Less}
+Mit Less wird eine mixin Klasse erstellt wie jede andere Klasse auch. Folgender Code erstellt ein Mixin und verwendet dieses anschließend:
+\begin{lstlisting}[
+         caption=Verwendung Mixin in Less,
+]
+.rounded-corners (@radius: 5px) {
+  border-radius: @radius;
+  -webkit-border-radius: @radius;
+  -moz-border-radius: @radius;
+}
+
+#header {
+  .rounded-corners;
+}
+#footer {
+  .rounded-corners(10px);
+}
+\end{lstlisting}
+Die Zeilen 1 bis 5 aus Listing 20 erstellen die Mixin-Klasse \grqq{rounded-corners}\glqq{}, welche auch die Mitgabe eines Parameter, in diesem Fall den Radius, ermögliicht. \newline
+In Zeile 8 und 11 wird die Klasse dann aufgerufen und verwendet. Wie erwähnt, ermöglicht das Mixin auch parameter. Als Defaultwert wird dem Mixin in Zeile 1 ein radius von 5px zugewiesen. In Zeile 11 wird der Defaultwert überschrieben und auf 10px geändert.
+\subsubsection{Sass}
+In Sass wird ein Mixin nicht wie in Less definiert. Im Gegensatz zu less, wird bei Sass nicht einfach eine klasse definiert. Listing 21 zeigt, wie mit Sass ein Mixin erstellt wird:
+\begin{lstlisting}[
+         caption=Verwendung Mixin in Sass,
+]
+@mixin large-text {
+  font: {
+    family: Arial;
+    size: 20px;
+    weight: bold;
+  }
+  color: #ff0000;
+}
+
+.page-title {
+  @include large-text;
+  padding: 4px;
+  margin-top: 10px;
+}
+\end{lstlisting}
+Der Code zeigt in Zeile 1, dass in Sass für die Erstellung eines Mixins \grqq{@mixin}\glqq{} vor den Namen des Mixins gesetzt werden muss. Trotz der differenten Schreibweise, wird ein Mixin auch in Sass wie eine Klasse behandelt. \newline
+Für die Verwendung des Mixins wird in Zeile 11 mit \grqq{@include}\glqq{} und dem Mixin-Namen ,large-text' aufgerufen. 
+\subsubsection{Stylus}
+In Stylus ist der Aufbau eines Mixins sehr ähnlich dem mit Less. 
+\begin{lstlisting}[
+         caption=Verwendung Mixin in Stylus,
+]
+rounded-corners (n) 
+  border-radius  n
+  -webkit-border-radius  n
+  -moz-border-radius  n
+
+#footer 
+  rounded-corners(10px)
+
+\end{lstlisting}
+In den Zeilen 1 bis 4 wird das Mixin erstellt. In Zeile 1 wird die Variable n als Parameter mitgegeben, welcher beim Aufruf des Mixins in Zeile 11 ausgefüllt wird. Somit beträgt der Radius 10px. \newline
+In Stylus ist die Syntax sehr variabel und es kann von dem Entwickler, der Entwicklerin selbst entschieden werden, ob Klammern, Strichpunkte und Doppelpunkte geschrieben werden oder nicht. Verwendet man die Syntax mit den Zeichen, sieht der Code aus Listing 22 wie folgt aus:
+\begin{lstlisting}[
+         caption=Verwendung Mixin in Stylus,
+]
+.rounded-corners (n){ 
+  border-radius: n;
+  -webkit-border-radius: n;
+  -moz-border-radius: n;
+}
+
+#footer{ 
+  .rounded-corners(10px);
+}
+\end{lstlisting}
+Listing 23 zeigt, dass die Erstellung des Mixins mit dieser Syntax gänzlich der Erstellung mit Less gleicht.  
+\subsection{Funktionen}
+Dieses Kapitel behandelt die Verwendung von Funktionen und Operatoren mit den CSS-Präprozessoren. Funktionen und Optionen helfen die Strutkur und Lesbarkeit des Stylesheets zu optimieren und es können komplexe Strukturen innerhalb der CSS Datei erstellt werden. \newline
+Bei Sass und Stylus können Funktionen eigens definiert werden und im ganzen Stylesheet angewendet werden.\newline
+In Less gibt es sehr viele vordefinierte Funktionen, die Beispielsweise Farbmischungen ermöglichen.
+\subsubsection{Less}
+Wie erwähnt, gibt es in Less viele verschiedene vordefinierte Funktionen zum Erstellen von komplexen Strukturen. Einige Beispiele, auf die im Anschluss noch genauer eingegangen wird, sind:
+\begin{itemize}
+  \item{floor}
+  \item{argb}
+  \item{saturation}
+  \item{fadein}
+  \item{mix}
+  \item{average}
+\end{itemize}
+\textbf{floor}\newline
+Floor ist eine mathematische Funktion, die zur Berechnung von Integern dient. Mit floor kann ein Integer abgerundet werden. Die Funktion ist wie bei PHP, nur dass hier nicht mitgegeben werden kann, auf wie viele Stellen abgerundet wird. Bei der Funktion in Less wird automatisch auf die nächst niedrigere ganze Zahl abgerundet.
+
+\textbf{argb}\newline
+Argb ist wie ,rgb' eine Farbfunktion und berechnet eine Hexdezimal  Version der angegebenen Farbe im \#AARRGGBB Format. Anders als bei rgba wird hierbei der Alphawert zu Beginn verwendet. Beispielsweise:
+\begin{lstlisting}[
+         caption=ARGB in Less,
+]
+rgb(90, 23, 148);
+//Ausgabe:
+#5a1794
+
+rgba(90, 23, 148, 0.5)
+//Ausgabe:
+#5a179480
+
+argb(rgba(90, 23, 148, 0.5));
+//Ausgabe
+#805a1794
+\end{lstlisting}
+Wie die Listing zeigt, wird der Alphawert, welcher in der rgba-Funktion als letzter Parameter mitgegeben wird, bei der Berechnung des Hexadezimalwertes am Beginn verwendet. 
+
+\textbf{saturation}\newline
+Saturation ist wie ,argb' eine Farbfunktion, die jedoch nicht wie argb die übergebenen Parameter in einen Hexadezimalwert umrechnet sondern den Sättigungskanal aus dem Farbobjekt extrahiert. Die Ausgabe dieser Funktion ist ein Prozentwert zwischen 0 und 100 und wird aus einem hsl-Wert ermittelt.
+\begin{lstlisting}[
+         caption=Saturation in Less,
+]
+saturation(hsl(90, 100%, 50%))
+//Ausgabe
+100%
+\end{lstlisting}
+
+\textbf{fadein}\newline
+Die Farboperation ,fadein' erhöht die Deckkraft der übergebenen Farbe. Als mitgabeparameter stellt die Funktion einen hsla-wert und eine Prozentzahl zwischen 0 und 100 bereit. Nachfolgender Code zeigt, wie der übergebene Farbwert mit der übergebenen Prozentzahl berechnet wird.
+\begin{lstlisting}[
+         caption=Fadein in Less,
+]
+fadein(hsla(90, 90%, 50%, 0.5), 10%)
+//Ausgabe
+rgba(128, 242, 13, 0.6) (hsla(90, 90%, 50%, 0.6))
+\end{lstlisting}
+Die gegenteilige Funktion zu ,fadein' ist ,fadeout', welche die Deckkraft nicht erhöht sondern vermindert.
+
+\textbf{mix}\newline
+Mix ist eine Funktion, die, wie der Name vermuten lässt, zwei Farben miteinander vermischt. Hierbei wird auch die Transparenz beachtet. Mitgegeben werden der Funktion 2 Farbwerte und die gewünschte Transparenz.
+\begin{lstlisting}[
+         caption=Mix in Less,
+]
+mix(#ff0000, #0000ff, 50)
+mix(rgba(100,0,0,1.0), rgba(0,100,0,0.5), 50)
+//Ausgabe
+#800080
+rgba(75, 25, 0, 0.75);
+\end{lstlisting}
+
+\textbf{average}\newline
+Average ist ebenso, wie die gleichnamige Funktion in PHP, eine Funktion, welche den Durchschnitt berechnet. In Less berechnet die Funktion aber nicht das Mittel von Integerwerten sondern den Durchschnitt von Farbwerten. Die mitgegebenen Parameter sind zwei Farbobjekte, aus denen ein drittes Farbobjekt, der Medianwert ermittelt wird.
+\begin{lstlisting}[
+         caption=Average in Less,
+]
+average(#ff6600, #000000);
+//Ausgabe
+#ff6600 #000000 #803300
+\end{lstlisting}
+\autocite[]{Sellier.2013}
+
+Neben den vorgestellten Funktionen, die von Less zur Verfügung gestellt werden, kann man auch einfache mathematische Funktionen erstellen wie z.B.
+\begin{lstlisting}[
+         caption=Funktionen in Less,
+]
+@base: 5%;
+@filler: (@base * 2);
+
+height: (100% / 2 + @filler);
+\end{lstlisting}
+
+\subsubsection{Sass}
+In Sass wird eine Funktion auf folgende Weise erstellt:
+\begin{lstlisting}[
+         caption=Verwendung Funktion in Sass,
+]
+$grid-width: 40px;
+$gutter-width: 10px;
+
+@function grid-width($n) {
+  @return $n * $grid-width + ($n - 1) * $gutter-width;
+}
+
+#sidebar { width: grid-width(5); }
+\end{lstlisting}
+Wie bei der Verwendung von Variablen beschrieben, werden in Zeile 1 und 2 die Variablen ,grid-width' und ,gutter-width' erstellt. Die Zeilen 4 bis 6 erstellen die Funktion, der eine Variable mitgegeben werden kann. In der Funktion wird dann mithilfe des mitgegebenen Parameters und der zuvor definierten Werte ,grid-width' und ,gutter-width' die Breite berechnet, welche in Zeile 8 aufgerufen wird.\newline
+Die Funktion in Listing 30 zeigt, wie Funktionen in Sass im Generellen erstellt und verwendet werden.  
+\subsubsection{Stylus}
+Wie in Sass, sieht in Stylus die Erstellung einer Funktion sehr ähnlich aus. Da jedoch bei Stylus auf Klammern, Strichpunkte und Doppelpunkte verzichtet werden kann, wird hierbei eine Funktion wie in Listing 31 gezeigt, formuliert:
+\begin{lstlisting}[
+         caption=Verwendung Funktion in Stylus,
+]
+grid-width: 40px;
+gutter-width: 10px;
+
+function grid-width(n) 
+  return n * grid-width + (n - 1) * gutter-width
+
+#sidebar 
+   width: grid-width(5)
+\end{lstlisting}
+Wie schon bei der Erstellung einer Variablen mit Stylus erklärt wurde, wird auch hier kein Sonderzeichen benötigt, um eine Variable zu definieren. Ebenso wird für die Funktion nichts dergleichen benötigt. \newline
+
+\subsection{Vererbung}
+Kapitel 2.5.4 beschreibt, was Vererbung bei CSS-Präprozessoren bedeutet und wie diese im generellen funktioniert. Dieses Kapitel beschreibt für jeden behandelten CSS-Präprozessor, wie Vererbung zustande kommt und verwendet wird.
+\subsubsection{Less}
+In Less funktioniert die Vererbung einfach durch Verschachtelung.
+\begin{lstlisting}[
+         caption=Vererbung in Less,
+]
+#header {
+  h1 {
+    font-size: 26px;
+    font-weight: bold;
+  }
+  p { font-size: 12px;
+    a { text-decoration: none;
+      &:hover { border-width: 1px }
+    }
+  }
+}
+\end{lstlisting}
+Auch mithilfe von Mixiins kann in Less vererbt werden. Ein Mixin ist wie erwähnt eine eigene Klasse und diese kann in jeder anderen Klasse durch das Aufrufen vererbt werden. Wie ein Mixin erstellt und aufgerufen wird, wurde bereits in Kapitel 5.2.1 erläutert.
+\subsubsection{Sass}
+Sass behandelt Vererbung anders als Less. Sass verwendet für die Vererbung von Klassen die Anweisung ,@extend', welche an jeder Stelle im Code aufgerufen werden kann. Listing 33 zeigt ein kurzes Beispiel, wie die Vererbung in Sass funktioniert.
+\begin{lstlisting}[
+         caption=Vererbung in Sass,
+]
+.error {
+  border: 1px #f00;
+  background-color: #fdd;
+}
+.seriousError {
+  @extend .error;
+  border-width: 3px;
+}
+\end{lstlisting}
+Die Listing zeigt, wie in der Klasse ,.seriousError' die Klasse '.error' vererbt wird.
+\subsubsection{Stylus}
+Stylus vererbt Klassen auf genau dieselbe Weise wie Sass. 
+\newpage
 \section{Praktische Anwendung und Vergleiche}
-Beim praktischen Teil wird dokumentiert, wie das verwendete Projekt aufgebaut ist und wie es mit der jeweiligen Sprache designed wurde. Es werden Abschnitte aus dem Code genau analysiert. Umd das gut umsetzen zu können, wird das Projekt, also die Webseite wirklich von grund auf in CSS3, Less, Sass und Stylus komplett eigens gestylt. So soll auch gut eruiert werden können, welche Sprache welche Vor- und Nachteile hat und wie erheblich diese in der Programmierung zu spüren sind. 
+Ich denke hier werde ich versuchen einen Parser zu schreiben. Zusätzlich möchte ich einen Generator machen, bei dem ich aussuchen kann, welchen Präprozessor ich in CSS parsen möchte. (oder so ähnlich )
 
 \section{Ergebnisse}
 hier möchte ich die Ergebnisse aus dem praktischen Teil zusammenfassen: Installation(dauer, Schwierigkeiten ...), Codequalität, Codekomplexität, Browserkompatibilität (vielleicht fällt mir bei der Recherche noch mehr ein, was ich vorher vergleiche kann und hier präsentieren)

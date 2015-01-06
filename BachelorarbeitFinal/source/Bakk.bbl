@@ -19,6 +19,30 @@
 
 \refsection{0}
   \sortlist{entry}{cms}
+    \entry{Andresen.2003}{book}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=da057e7b1b8e746ab09ef26ce2f30bf4}{Andresen}{A\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=da057e7b1b8e746ab09ef26ce2f30bf4}{Andresen}{A\bibinitperiod}{Andreas}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \list{location}{2}{%
+        {M{\"u}nchen}%
+        {Wien}%
+      }
+      \list{publisher}{1}{%
+        {Carl Hanser}%
+      }
+      \strng{namehash}{da057e7b1b8e746ab09ef26ce2f30bf4}
+      \strng{fullhash}{da057e7b1b8e746ab09ef26ce2f30bf4}
+      \field{sortinit}{A}
+      \field{labelyear}{2003}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Komponentenbasierte Softwareentwicklung: mit MDA, UML und XML}
+      \field{isbn}{3-446-22282-0}
+      \field{title}{Komponentenbasierte Softwareentwicklung: mit MDA, UML und XML}
+      \field{year}{2003}
+    \endentry
     \entry{Bracey.2014}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=4f972679401255f48a0378e33afbf8dc}{Bracey}{B\bibinitperiod}{Kezz}{K\bibinitperiod}{}{}{}{}}%
@@ -108,6 +132,50 @@
       \verb http://www.hongkiat.com/blog/sass-vs-less/
       \endverb
     \endentry
+    \entry{Gerchev.2012}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=7411a3f4c3bd072cb966bee4bd636f41}{Gerchev}{G\bibinitperiod}{Ivaylo}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7411a3f4c3bd072cb966bee4bd636f41}{Gerchev}{G\bibinitperiod}{Ivaylo}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7411a3f4c3bd072cb966bee4bd636f41}
+      \strng{fullhash}{7411a3f4c3bd072cb966bee4bd636f41}
+      \field{sortinit}{G}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{A Comprehensive Introduction to Less: Mixins}
+      \field{title}{A Comprehensive Introduction to Less: Mixins}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://www.sitepoint.com/a-comprehensive-introduction-to-less-mixins/
+      \endverb
+    \endentry
+    \entry{Giraudel.2014}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=250a87d639b361ed6ffe06b48950613c}{Giraudel}{G\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=250a87d639b361ed6ffe06b48950613c}{Giraudel}{G\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{250a87d639b361ed6ffe06b48950613c}
+      \strng{fullhash}{250a87d639b361ed6ffe06b48950613c}
+      \field{sortinit}{G}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{What's the Difference Between Sass and SCSS?}
+      \field{title}{What's the Difference Between Sass and SCSS?}
+      \field{urlday}{02}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.sitepoint.com/whats-difference-sass-scss/
+      \endverb
+    \endentry
     \entry{Hixon.2011}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=ed4ff49d44047feb28aad1896e9def99}{Hixon}{H\bibinitperiod}{Jeremy}{J\bibinitperiod}{}{}{}{}}%
@@ -130,6 +198,50 @@
       \verb http://www.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/
       \endverb
     \endentry
+    \entry{Jung.2010}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=dc428d530d1fa0260bc3ce03504e63e1}{Jung}{J\bibinitperiod}{Jean-Baptiste}{J\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=dc428d530d1fa0260bc3ce03504e63e1}{Jung}{J\bibinitperiod}{Jean-Baptiste}{J\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{dc428d530d1fa0260bc3ce03504e63e1}
+      \strng{fullhash}{dc428d530d1fa0260bc3ce03504e63e1}
+      \field{sortinit}{J}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{8 CSS preprocessors to speed up development time}
+      \field{title}{8 CSS preprocessors to speed up development time}
+      \field{urlday}{21}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://www.catswhocode.com/blog/8-css-preprocessors-to-speed-up-development-time#disqus_thread
+      \endverb
+    \endentry
+    \entry{LearnBoost.2010}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6b00fddd908805a42a618480b20c7ea0}{LearnBoost}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6b00fddd908805a42a618480b20c7ea0}{LearnBoost}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{6b00fddd908805a42a618480b20c7ea0}
+      \strng{fullhash}{6b00fddd908805a42a618480b20c7ea0}
+      \field{sortinit}{L}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Stylus: Expressive, dynamic, robust CSS}
+      \field{title}{Stylus: Expressive, dynamic, robust CSS}
+      \field{urlday}{21}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{year}{2010}
+      \verb{url}
+      \verb http://learnboost.github.io/stylus/
+      \endverb
+    \endentry
     \entry{Page.2013}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=d0ab7624fab972e816b631b48f89a68a}{Page}{P\bibinitperiod}{Luke}{L\bibinitperiod}{}{}{}{}}%
@@ -150,6 +262,115 @@
       \field{year}{2013}
       \verb{url}
       \verb http://www.scottlogic.com/blog/2013/03/08/less-vs-sass-vs-stylus.html
+      \endverb
+    \endentry
+    \entry{Peter.2012}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=831dacbdce07f37455a7d5e3c4d566c1}{Peter}{P\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=831dacbdce07f37455a7d5e3c4d566c1}{Peter}{P\bibinitperiod}{Christian}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{831dacbdce07f37455a7d5e3c4d566c1}
+      \strng{fullhash}{831dacbdce07f37455a7d5e3c4d566c1}
+      \field{sortinit}{P}
+      \field{labelyear}{2012}
+      \field{datelabelsource}{}
+      \field{labeltitle}{C-Pr{\"a}prozessoren}
+      \field{title}{C-Pr{\"a}prozessoren}
+      \field{year}{2012}
+      \verb{url}
+      \verb http://wr.informatik.uni-hamburg.de/_media/teaching/wintersemester_2012_2013/epc-1213-peter-praeprozessor-praesentation.pdf
+      \endverb
+    \endentry
+    \entry{psdtowp.2014}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=681a9e33edfbc5e3717835fc90c9d25a}{psdtowp}{p\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=681a9e33edfbc5e3717835fc90c9d25a}{psdtowp}{p\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{681a9e33edfbc5e3717835fc90c9d25a}
+      \strng{fullhash}{681a9e33edfbc5e3717835fc90c9d25a}
+      \field{sortinit}{p}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{CSS preprocessors}
+      \field{title}{CSS preprocessors}
+      \field{urlday}{21}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \field{year}{2014}
+      \verb{url}
+      \verb https://psdtowp.net/css-preprocessors.html
+      \endverb
+    \endentry
+    \entry{Sellier.2013}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=50a0ebf2706193684b568f205708951e}{Sellier}{S\bibinitperiod}{Alexis}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=50a0ebf2706193684b568f205708951e}{Sellier}{S\bibinitperiod}{Alexis}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{50a0ebf2706193684b568f205708951e}
+      \strng{fullhash}{50a0ebf2706193684b568f205708951e}
+      \field{sortinit}{S}
+      \field{labelyear}{2014}
+      \field{labelmonth}{12}
+      \field{labelday}{21}
+      \field{datelabelsource}{url}
+      \field{labeltitle}{Less die dynamische stylesheet sprache}
+      \field{title}{Less die dynamische stylesheet sprache}
+      \field{urlday}{21}
+      \field{urlmonth}{12}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://www.lesscss.de/
+      \endverb
+    \endentry
+    \entry{thecorelessteam.}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=771c43d32f4a8d8ddcdb9c617b9953b2}{{the\bibnamedelimb core\bibnamedelimb less\bibnamedelimb team}}{t\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=771c43d32f4a8d8ddcdb9c617b9953b2}{{the\bibnamedelimb core\bibnamedelimb less\bibnamedelimb team}}{t\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{771c43d32f4a8d8ddcdb9c617b9953b2}
+      \strng{fullhash}{771c43d32f4a8d8ddcdb9c617b9953b2}
+      \field{sortinit}{t}
+      \field{labelyear}{2014}
+      \field{labelmonth}{11}
+      \field{labelday}{27}
+      \field{datelabelsource}{url}
+      \field{labeltitle}{Language Features: Features of the Less language}
+      \field{title}{Language Features: Features of the Less language}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \verb{url}
+      \verb http://lesscss.org/features/
+      \endverb
+    \endentry
+    \entry{Yard.2014}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=351cda5a720d59953a9f3d69bd2b3002}{Yard}{Y\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=351cda5a720d59953a9f3d69bd2b3002}{Yard}{Y\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{351cda5a720d59953a9f3d69bd2b3002}
+      \strng{fullhash}{351cda5a720d59953a9f3d69bd2b3002}
+      \field{sortinit}{Y}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Sass: Documentation}
+      \field{title}{Sass: Documentation}
+      \field{urlday}{24}
+      \field{urlmonth}{11}
+      \field{urlyear}{2014}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax
       \endverb
     \endentry
     \entry{ZingDesign.2014}{misc}{}

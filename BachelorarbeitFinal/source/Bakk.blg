@@ -1,15 +1,15 @@
 [1] 554906f9.pm:318> INFO - This is Biber 1.8
-[1] 554906f9.pm:321> INFO - Logfile is 'Bakk.blg'
-[7] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
-[9] f955f23e.pm:333> INFO - Reading 'Bakk.bcf'
-[278] f955f23e.pm:630> INFO - Found 7 citekeys in bib section 0
-[352] f955f23e.pm:3053> INFO - Processing section 0
-[412] f955f23e.pm:3190> INFO - Looking for bibtex format file 'D://FH/Sem5.2/Bakk 2/BachelorarbeitFinal/source/Bibliography.bib' for section 0
-[424] 051dfd95.pm:937> INFO - Decoding LaTeX character macros into UTF-8
-[428] 051dfd95.pm:812> INFO - Found BibTeX data source 'D://FH/Sem5.2/Bakk 2/BachelorarbeitFinal/source/Bibliography.bib'
-[630] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'level = 4' with 'level = 2'
-[631] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[632] f955f23e.pm:2945> INFO - Sorting 'entry' list 'cms' keys
-[632] f955f23e.pm:2949> INFO - No sort tailoring available for locale 'English_United States.1252'
-[682] f22c0d73.pm:482> INFO - Writing 'Bakk.bbl' with encoding 'UTF-8'
-[687] f22c0d73.pm:555> INFO - Output to Bakk.bbl
+[3] 554906f9.pm:321> INFO - Logfile is 'Bakk.blg'
+[306] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
+[307] f955f23e.pm:333> INFO - Reading 'Bakk.bcf'
+[576] f955f23e.pm:630> INFO - Found 17 citekeys in bib section 0
+[646] f955f23e.pm:3053> INFO - Processing section 0
+[703] f955f23e.pm:3190> INFO - Looking for bibtex format file 'D://FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bibliography.bib' for section 0
+[716] 051dfd95.pm:937> INFO - Decoding LaTeX character macros into UTF-8
+[721] 051dfd95.pm:812> INFO - Found BibTeX data source 'D://FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bibliography.bib'
+[982] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'level = 4' with 'level = 2'
+[982] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[983] f955f23e.pm:2945> INFO - Sorting 'entry' list 'cms' keys
+[984] f955f23e.pm:2949> INFO - No sort tailoring available for locale 'English_United States.1252'
+[1113] f22c0d73.pm:482> INFO - Writing 'Bakk.bbl' with encoding 'UTF-8'
+[1122] f22c0d73.pm:555> INFO - Output to Bakk.bbl
