@@ -31,36 +31,38 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {16}Vererbung mit extend}{16}{lstlisting.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {17}Verwendung Variable in less}{19}{lstlisting.17}
+\contentsline {lstlisting}{\numberline {17}Less Parser}{19}{lstlisting.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {18}Verwendung Variable in sass}{19}{lstlisting.18}
+\contentsline {lstlisting}{\numberline {18}Verwendung Variable in less}{22}{lstlisting.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {19}Verwendung Variable in stylus}{20}{lstlisting.19}
+\contentsline {lstlisting}{\numberline {19}Verwendung Variable in sass}{22}{lstlisting.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {20}Verwendung Mixin in Less}{21}{lstlisting.20}
+\contentsline {lstlisting}{\numberline {20}Verwendung Variable in stylus}{23}{lstlisting.20}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {21}Verwendung Mixin in Sass}{21}{lstlisting.21}
+\contentsline {lstlisting}{\numberline {21}Verwendung Mixin in Less}{24}{lstlisting.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {22}Verwendung Mixin in Stylus}{22}{lstlisting.22}
+\contentsline {lstlisting}{\numberline {22}Verwendung Mixin in Sass}{24}{lstlisting.22}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {23}Verwendung Mixin in Stylus}{22}{lstlisting.23}
+\contentsline {lstlisting}{\numberline {23}Verwendung Mixin in Stylus}{25}{lstlisting.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {24}ARGB in Less}{24}{lstlisting.24}
+\contentsline {lstlisting}{\numberline {24}Verwendung Mixin in Stylus}{25}{lstlisting.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {25}Saturation in Less}{24}{lstlisting.25}
+\contentsline {lstlisting}{\numberline {25}ARGB in Less}{27}{lstlisting.25}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {26}Fadein in Less}{24}{lstlisting.26}
+\contentsline {lstlisting}{\numberline {26}Saturation in Less}{27}{lstlisting.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {27}Mix in Less}{25}{lstlisting.27}
+\contentsline {lstlisting}{\numberline {27}Fadein in Less}{27}{lstlisting.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {28}Average in Less}{25}{lstlisting.28}
+\contentsline {lstlisting}{\numberline {28}Mix in Less}{28}{lstlisting.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {29}Funktionen in Less}{25}{lstlisting.29}
+\contentsline {lstlisting}{\numberline {29}Average in Less}{28}{lstlisting.29}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {30}Verwendung Funktion in Sass}{25}{lstlisting.30}
+\contentsline {lstlisting}{\numberline {30}Funktionen in Less}{28}{lstlisting.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {31}Verwendung Funktion in Stylus}{26}{lstlisting.31}
+\contentsline {lstlisting}{\numberline {31}Verwendung Funktion in Sass}{28}{lstlisting.31}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {32}Vererbung in Less}{26}{lstlisting.32}
+\contentsline {lstlisting}{\numberline {32}Verwendung Funktion in Stylus}{29}{lstlisting.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {33}Vererbung in Sass}{27}{lstlisting.33}
+\contentsline {lstlisting}{\numberline {33}Vererbung in Less}{29}{lstlisting.33}
+\defcounter {refsection}{0}\relax 
+\contentsline {lstlisting}{\numberline {34}Vererbung in Sass}{30}{lstlisting.34}
