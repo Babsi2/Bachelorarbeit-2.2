@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  1 FEB 2015 18:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  8 FEB 2015 16:59
 entering extended mode
 **D:/FH/Sem5.2/Bakk*2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex
 ("D:/FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex"
@@ -1173,7 +1173,7 @@ LaTeX Info: Redefining \nameref on input line 115.
 \@outlinefile=\write5
 
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Title.tex"
-<images/FHSLogo.jpg, id=155, 1047.915pt x 289.08pt>
+<images/FHSLogo.jpg, id=159, 1047.915pt x 289.08pt>
 File: images/FHSLogo.jpg Graphic file (type jpg)
  <use images/FHSLogo.jpg>
 Package pdftex.def Info: images/FHSLogo.jpg used on input line 4.
@@ -1249,96 +1249,101 @@ LaTeX Font Info:    Try loading font information for T1+lmtt on input line 30.
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 [2] [3]
-Underfull \hbox (badness 10000) in paragraph at lines 89--98
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 89--98
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 97.
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Underfull \hbox (badness 10000) in paragraph at lines 104--107
 
  []
 
 [4]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 102.
 
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 109--112
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 113.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 116.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 119.
+
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 122.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
 
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 118.
-
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 121.
-
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 124.
-
-[5]
 Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 140.
-
-[6] [7] [8] [9] [10]
-Underfull \hbox (badness 10000) in paragraph at lines 260--261
+[5] [6] [7] [8] [9] [10]
+Underfull \hbox (badness 10000) in paragraph at lines 270--271
 
  []
 
 [11]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 273.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 283.
 
 [12] [13]
-Underfull \hbox (badness 10000) in paragraph at lines 336--339
+Underfull \hbox (badness 10000) in paragraph at lines 346--349
 
  []
 
 [14] [15] [16] [17] [18]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 461.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 473.
  [19] [20] [21]
-Overfull \hbox (23.30176pt too wide) in paragraph at lines 557--558
+Overfull \hbox (23.30176pt too wide) in paragraph at lines 569--570
 \T1/lmr/m/n/12 Variablen sind wie schon in Ka-pi-tel 2.5.1 be-schrie-ben, ei-ne
  Er-wei-te-rung der CSS-Präprozessoren.
  []
 
 [22]
-Underfull \hbox (badness 10000) in paragraph at lines 607--611
+Underfull \hbox (badness 10000) in paragraph at lines 619--623
 
  []
 
 [23] [24] [25] [26] [27] [28]
-Underfull \hbox (badness 10000) in paragraph at lines 806--807
+Underfull \hbox (badness 10000) in paragraph at lines 818--819
 
  []
 
-[29] [30]) [31]
+[29] [30]
+Underfull \hbox (badness 10000) in paragraph at lines 861--863
+
+ []
+
+[31] [32]
+Underfull \hbox (badness 10000) in paragraph at lines 932--934
+
+ []
+
+[33]) [34]
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 144.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [32
+) [35
 
 ]
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lof")
 \tf@lof=\write7
 
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lol"
-[33])
+[36])
 \tf@lol=\write8
 
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lot")
 \tf@lot=\write9
 
-[34] [35] [36]
+[37] [38] [39]
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Attachment.
-tex") [37
+tex") [40
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
@@ -1351,17 +1356,17 @@ aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `Bakk.out' has not changed.
-(rerunfilecheck)             Checksum: 6FD630DCDFF606C995A4A9FE2BFDE8BB;2363.
+(rerunfilecheck)             Checksum: C035F7A674A894C9756DA68D2D59BC7C;2422.
 Package logreq Info: Writing requests to 'Bakk.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 18360 strings out of 493921
- 291541 string characters out of 3147258
- 932347 words of memory out of 3000000
- 20735 multiletter control sequences out of 15000+200000
+ 18431 strings out of 493921
+ 292453 string characters out of 3147258
+ 937373 words of memory out of 3000000
+ 20758 multiletter control sequences out of 15000+200000
  66338 words of font info for 50 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
- 52i,6n,52p,882b,4749s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 52i,6n,50p,882b,4749s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/lm/lm-ec.enc}{C:/Program Files/M
 iKTeX 2.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Program Files/MiKTeX 2.9/fonts/type
 1/public/lm/lmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmbxi
@@ -1373,9 +1378,9 @@ ic/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C
 iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
 lmtt12.pfb>
-Output written on Bakk.pdf (43 pages, 2432049 bytes).
+Output written on Bakk.pdf (46 pages, 2448978 bytes).
 PDF statistics:
- 1113 PDF objects out of 1200 (max. 8388607)
- 557 named destinations out of 1000 (max. 500000)
- 330 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1188 PDF objects out of 1200 (max. 8388607)
+ 605 named destinations out of 1000 (max. 500000)
+ 338 words of extra memory for PDF output out of 10000 (max. 10000000)
 

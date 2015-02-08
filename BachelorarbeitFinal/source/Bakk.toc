@@ -19,23 +19,25 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {2}CSS-Pr\IeC {\"a}prozessoren}{2}{section.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Software Komponenten}{6}{subsection.2.1}
+\contentsline {subsection}{\numberline {2.1}Workflow}{6}{subsection.2.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Less}{8}{subsection.2.2}
+\contentsline {subsection}{\numberline {2.2}Software Komponenten}{6}{subsection.2.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Sass}{9}{subsection.2.3}
+\contentsline {subsection}{\numberline {2.3}Less}{8}{subsection.2.3}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Stylus}{11}{subsection.2.4}
+\contentsline {subsection}{\numberline {2.4}Sass}{9}{subsection.2.4}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}Erweiterungen von CSS Pr\IeC {\"a}prozessoren}{12}{subsection.2.5}
+\contentsline {subsection}{\numberline {2.5}Stylus}{11}{subsection.2.5}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.1}Variablen}{12}{subsubsection.2.5.1}
+\contentsline {subsection}{\numberline {2.6}Erweiterungen von CSS Pr\IeC {\"a}prozessoren}{12}{subsection.2.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.2}Mixin}{13}{subsubsection.2.5.2}
+\contentsline {subsubsection}{\numberline {2.6.1}Variablen}{12}{subsubsection.2.6.1}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.3}Funktionen}{16}{subsubsection.2.5.3}
+\contentsline {subsubsection}{\numberline {2.6.2}Mixin}{13}{subsubsection.2.6.2}
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.5.4}Vererbung}{16}{subsubsection.2.5.4}
+\contentsline {subsubsection}{\numberline {2.6.3}Funktionen}{16}{subsubsection.2.6.3}
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {2.6.4}Vererbung}{16}{subsubsection.2.6.4}
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Superset}{18}{section.3}
 \defcounter {refsection}{0}\relax 
@@ -77,12 +79,12 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {6}Praktische Anwendung und Vergleiche}{31}{section.6}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Ergebnisse}{31}{section.7}
+\contentsline {section}{\numberline {7}Ergebnisse}{34}{section.7}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Schluss}{31}{section.8}
+\contentsline {section}{\numberline {8}Schluss}{34}{section.8}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abbildungsverzeichnis}{33}{section*.10}
+\contentsline {section}{Abbildungsverzeichnis}{36}{section*.10}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Tabellenverzeichnis}{34}{section*.12}
+\contentsline {section}{Tabellenverzeichnis}{37}{section*.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literaturverzeichnis}{35}{section*.12}
+\contentsline {section}{Literaturverzeichnis}{38}{section*.12}

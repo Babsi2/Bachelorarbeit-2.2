@@ -87,13 +87,8 @@ Wie in den 2 Listings gut zu sehen, ist der Sinn von CSS-Präprozessoren nicht i
 Man muss jedoch darauf achten, dass es nicht immer sinnvoll ist, den Code zu verschachteln. Hat man z.B. einen Button, der auf der ganzen Seite immer grün sein soll, macht es keinen Sinn, dem Button die Styles in einer Verschachtelung zu geben, da man dann immer darauf achten muss, dass der Button auch wirklich in diesem Abschnitt des Quellcodes auftritt. Stattdessen ist es hier sinnvoller, den Button separat zu stylen und bei etwaigen Änderungen, diese dann in der Verschachtelung anzuführen. So kann vermieden werden, dass der Code unübersichtlich wird, und der Button wird nur an bestimmten Stellen geändert.
 
 Neben den genannten Erweiterungen Less, Sass und Stylus zu CSS kann man zusätzlich den Workflow verbessern. Werden die Präprozessoren richtig verwendet kann der Code sauberer und auch kürzer gehalten werden.\newline
-Durch den Einsatz der Erweiterungen, kann ein komplexer Code vereinfacht werden, wodurch der Code wartbarer und übersichtlicher wird. Auch kann der Zeitaufwand für die Erstellung der Stylesheets verkürzt werden, da Beispielsweise Code, der häufig verwendet wird, mithilfe eines Mixins nur einmal definiert werden muss.\newline\newline
-Der Begriff Workflow beschreibt eine Abfolge von Atkivitäten. In Zusammenhang mit dieser Arbeit, bedeudet Workflow die Ausführung verschiedener Arbeitsschritte in einer definierten Abfolge.\newline
-Der erste Arbeitsschritt bei der Erstellung eines Webseitenstylings ist die Erstellung eines Stylesheets. In dieser Arbeit werden less, sass und stylus behandelt. Es wird also entweder eine style.less, eine style.sass bzw. style.scss oder eine style.styl erstellt. \newline
-Um diese Styles richtig auf der Webseite ausgeben zu können, folgt der nächste Arbeitsschritt. Die Kompilierung der Dateien in CSS.\newline
-Für die Kompilierung gibt es für jeden der genannten CSS-Präprozessoren einige ThirdPartyLibraries wie z.B. Koala für Sass und Less oder CodeKit, welche less, stylus und sass kompiliert. \newline
-Wie im vorherigen Absatz erwähnt, kann durch die Verwendung der Erweiterungen der Workflow verbessert werden, da der erste Arbeitsschritt schneller und verbessert durchgeführt werden kann. \newline
-Die 2 genannten Libraries Koala und CodeKit ermöglichen es, die erstellten Stylesheets in Echtzeit zu kompilieren, so kann der Workflow ein weiteres mal verbessert werden, da die Erstellung des Stylesheets und dessen Kompilierung parallel ablaufen.\newline\newline
+Durch den Einsatz der Erweiterungen, kann ein komplexer Code vereinfacht werden, wodurch der Code wartbarer und übersichtlicher wird. Auch kann der Zeitaufwand für die Erstellung der Stylesheets verkürzt werden, da Beispielsweise Code, der häufig verwendet wird, mithilfe eines Mixins nur einmal definiert werden muss.
+
 Der Code von CSS-Präprozessoren ist immer valides CSS, da die Präprozessoren Erweiterungen von CSS darstellen. Die am Beginn des Kapitels genannten Präprozessoren sind drei der bekanntesten CSS-Präprozessoren, es gibt jedoch noch sehr viele andere, wie zum Beispiel Turbine oder Switch CSS \autocite[]{Jung.2010}.
 
 Um zu überprüfen, ob das geschriebene stylesheet valide ist und gute Qualität hat, gibt es Linting. Linting ist die Überprüfung von CSS auf Validität und Codequalität. Es gibt einige OpenSource Tools, die die Überprüfung des Stylesheets einfach und schnell ermöglichen. Ein gutes OpenSource Tool ist z.B. CSSLint von Nicolas C. Zakas und Nicole Sullivan\footnote[1]{open source Tool zur Überprüfung von CSS: https://github.com/CSSLint/csslint/wiki/About.}\newline
@@ -132,10 +127,25 @@ In general, I'm a big fan of preprocessors. They allow you to programmatically s
 Aus den Zitaten geht klar hervor, dass jeder seine eigenen Gründe hat, warum er sich für einen CSS-Präprozessor entschieden hat. \newline
 Welchen CSS-Präprozessor man verwendet hängt auch sehr davon ab, für welches Projekt man ihn verwendet und wie man sonst arbeitet.\newline
 
-Das gelesene Kapitel beschreibt den Nutzen und die Verwendung von CSS-Präprozessoren und soll erläutern, welche Vorteile und Nachteile so ein Präprozessor bietet.
+Das gelesene Kapitel beschreibt den Nutzen und die Verwendung von CSS-Präprozessoren und soll erläutern, welche Vorteile und Nachteile so ein Präprozessor bietet. Nachstehend wird noch der Begriff Workflow genauer definiert.
+\subsection{Workflow}
+Was ist Workflow? Wie wird Workflow definiert?\newline
+Diese Fragen werden in folgendem Kapitel erörtert und beantwortet.\newline
+\begin{quote}
+"Workflow ist ein Arbeitsablauf... Mit dem Workflow können Geschäftsprozesse, an denen Mitarbeiter aus mehreren Abteilungen in einer vorgegebenen Reihenfolge beschäftigt sind, informationstechnisch realisiert werden. Die einzelnen Aktivitäten eines Workflows stehen in einem logischen Zusammenhang und einer zeitlichen Abfolge zueinander. "
+\autocite[]{ITWissen.info.2014}
+\end{quote}
+Das Zitat beschreibt, dass ein Workflow eine Abfolge von Aktivitäten ist. In Zusammenhang mit dieser Arbeit, bedeudet Workflow die Ausführung verschiedener Arbeitsschritte in einer definierten Abfolge.\newline
+Der erste Arbeitsschritt bei der Erstellung eines Webseitenstylings ist die Erstellung eines Stylesheets. In dieser Arbeit werden less, sass und stylus behandelt. Es wird also entweder eine style.less, eine style.sass bzw. style.scss oder eine style.styl erstellt. \newline
+Um diese Styles richtig auf der Webseite ausgeben zu können, folgt der nächste Arbeitsschritt. Die Kompilierung der Dateien in CSS.\newline
+Für die Kompilierung gibt es für jeden der genannten CSS-Präprozessoren einige ThirdPartyLibraries wie z.B. Koala für Sass und Less oder CodeKit, welche less, stylus und sass kompiliert. \newline
+Wie im vorherigen Absatz erwähnt, kann durch die Verwendung der Erweiterungen der Workflow verbessert werden, da der erste Arbeitsschritt schneller und verbessert durchgeführt werden kann. \newline
+Die 2 genannten Libraries Koala und CodeKit ermöglichen es, die erstellten Stylesheets in Echtzeit zu kompilieren, so kann der Workflow ein weiteres mal verbessert werden, da die Erstellung des Stylesheets und dessen Kompilierung parallel ablaufen.
+
+Nachdem in den vorangegangenen Absätzen die Vorteile und Nachteile von Präprozessoren erläutert wurden, wird in den Nächsten Kapiteln noch etwas genauer auf den Begriff \glqq{} Software Komponenten \grqq{} eingegangen.
 \subsection{Software Komponenten}
 Software Komponenten (im weiteren Verlauf als Komponenten bezeichnet) sind wiederverwendbare Bausteine einer Applikation, welche aus Software Code bestehen. Komponenten implementieren spezifische Funktionalitäten gemeinsam mit vordefinierten Schnittstellen. Da es sich um wiederverwendbare Teile von Code handelt, sind Komponenten sogenannte Software-Bausteine, die einen bestimmten Bereich eines Geschäftsfeldes kapseln, jedoch keine abgeschlossene Applikation darstellen, und nicht für sich alleine ablaufen können. \autocite[1]{Andresen.2003}\newline
-In Bezug auf diese Arbeit, sind bspw. Grids Komponenten von CSS-Präprozessoren. Grids sind eine Layout-Komponente von CSS-Präprozessoren. Diese Komponente kann wiederverwendet werden und bildet einen eigenschändigen Bereich des CSS-Präprozessors. Wie beschrieben, ist sie jedoch keine abgeschlossene Applikation und kann nicht alleine Ablaufen.
+In Bezug auf diese Arbeit, sind bspw. Mixins Komponenten von CSS-Präprozessoren. Diese Komponente kann wiederverwendet werden und bildet einen eigenschändigen Bereich des CSS-Präprozessors. Wie beschrieben, ist sie jedoch keine abgeschlossene Applikation und kann nicht alleine Ablaufen.
 
 Im Buch von Andreas Andresen, Komponentenbasierte Softwareentwicklung, \autocite[]{Andresen.2003} werden auf Seite 2 einige Vorteile von Komponenten aufgezählt. Die wichtigsten für diese Arbeit sind folgende:
 \begin{itemize}
@@ -146,18 +156,18 @@ Im Buch von Andreas Andresen, Komponentenbasierte Softwareentwicklung, \autocite
   \item fördern eine schnelle Applikationsentwicklung
   \item einfach austauschbar
 \end{itemize} 
-Neben Vorteilen gibt es auch noch wichtige Anforderungen an die Architektur von Komponenten, welche anhand des genannten Beispiels von Grids, näher erklärt werden. Die wichtigesten Anforderungen, welche wie erwähnt noch näher erklärt werden, sind: 
-\begin{itemize}
+Neben Vorteilen gibt es auch noch wichtige Anforderungen an die Architektur von Komponenten, welche anhand des genannten Beispiels von Mixins, näher erklärt werden. Die Anforderungen stammen aus dem bereits genannten Buch von Seite 6. Die wichtigesten Anforderungen sind: 
+\begin{enumerate}
   \item die Ermöglichung  einer einfachen Kommunikation von System und Komponente untereinander
   \item komplexe Zusammenhänge innerhalb von Systemen und zwischen Komponenten und Systemen müssen auf übersichtliche und einfache Weise strukturiert werden können.
   \item Komponenten und Systeme müssen effizient dimensioniert werden
   \item bestehende Komponenten müssen einfach integrierbar sein
   \item eine einfach Wiederverwendung der Komponenten muss ermöglicht werden
   \item die Zuständigkeit muss klar getrennt sein
-  \item das System muss die Anforderungen in Bezug auf Robustheit, Zuverlässigkeit, Performance, Siherheit und Skalierbarkeit erfüllen
-\end{itemize} \autocite[6]{Andresen.2003}
+  \item das System muss die Anforderungen in Bezug auf Robustheit, Zuverlässigkeit, Performance, Sicherheit und Skalierbarkeit erfüllen
+\end{enumerate}
 
-Ein Grid ist eine Layout Komponente. Das heißt, das Grid kümmert sich um die visuelle Anordnung von Komponenten in einem übergeordneten Container. 
+Den ersten Punkt der Aufzählung erfüllt ein Mixin, da 
 \newpage
 \subsection{Less}
 Less ist einer der genannten CSS-Präprozessoren und wird in diesem Kapitel genauer erklärt.\newline
@@ -415,6 +425,7 @@ button:hover {
 }
 \end{lstlisting}
 Mixins können bei jedem der, in dieser Arbeit vorgestellten, CSS-Präprozessoren verwendet werden, die Schreibweise unterscheidet sich jedoch. Darauf wird später noch genauer eingegangen.
+Erwähnenswert ist auch noch, dass beispielsweise in Less eine Schlefe mit einem Mixin gelöst wird. Sass bzw. Scss und Stylus hingegen erlauben das Iterieren durch eine Schleife.
 \subsubsection{Funktionen}
 Funktionen bei CSS-Präprozessoren sind denen in anderen Programmiersprachen sehr ähnlich. Mit Funktionen, kann man beispielsweise zwei Pixelwerte addieren, subtrahieren, dividieren und multiplizieren. Wie die Implementierung der Funktionen bei den, in dieser Arbeit verwendeten, CSS-Präprozessoren funktioniert, wird in einem späteren Kapitel erklärt.
 \subsubsection{Vererbung}
@@ -453,6 +464,7 @@ Im Falle dieser Arbeit würde also der Lexer die Datei welche in Less, Stylus od
 Auch einige Präprozessoren verwenden einen Parser um die erstellten Dateien in CSS umzuwandeln. Nachfolgende Abschnitte erläutern, wie die beschriebenen Präprozessoren in CSS umwandeln. 
 
 \textbf{Less}\newline
+Im letzten Absatz wurde gemeinsam zum Parser immer vom Tokenizer oder auch Lexer gesprochen. Less zeigt, dass der Tokenizer nicht zwingend verwendet werden muss.
 Less verwendet beim Parsen keinen Tokenizer, also keinen Lexer. Der Parser von Less durchläuft die Eingabe, den Less-Code, einmal und parsed alles. Das heißt es gibt eine Function in der für alle spezialfälle wieder eigene Funktionen geschrieben werden.
 Beispielsweise folgender Codeausschnitt aus dem Parser:
 \begin{lstlisting}[
@@ -844,8 +856,82 @@ Die Listing zeigt, wie in der Klasse ,.seriousError' die Klasse '.error' vererbt
 Stylus vererbt Klassen auf genau dieselbe Weise wie Sass. 
 \newpage
 \section{Praktische Anwendung und Vergleiche}
-Ich denke hier werde ich versuchen einen Parser zu schreiben. Zusätzlich möchte ich einen Generator machen, bei dem ich aussuchen kann, welchen Präprozessor ich in CSS parsen möchte. (oder so ähnlich )
+Der praktische Teil dieser Arbeit besteht im Großen und Ganzen aus einer index.html, einer Sass Datei, einem Gruntfile und einem package.json.  Das Ergebnis der praktischen Arbeit wird eine Library, die mit yeoman vom Enduser gebuildet werden kann, und dann entweder die enthaltene Sass-Datei oder eine daraus generiert Less, Css oder Stylus datei erstellt und zur Verfügung stellt.
 
+Wie erwähnt, beinhaltet die praktische Arbeit eine sass Datei. Diese Sass Datei ist die wichtigste Komponente für die Arbeit. Die Library, die am  Ende zur Verfügung gestellt wird, ermöglicht es dem User in möglichst wenig Schritten eine fertige Less, Sass, Stylus oder Css Datei zu erhalten, die den Code für Css-Animationen enhält. Diese Dateien für den User werden mithilfe von Grunt alle aus der einen Sass Datei gebuildet, die im Projekt enthalten ist.\newline
+Um die Library gut vorstellen zu können, werden die mit Sass erstellten Animationen noch auf einer Seite grafisch dargestellt.\newline
+
+\textbf{Umsetzung}
+
+Wie wird nun die Erstellung dieses pratkischen Teils umgesetzt? \newline
+Bereits in vorangegangenen Kapiteln wurde beschrieben, dass Less oder Sass oder Stylus geparst werden muss, um daraus Css zu erhalten. Nun wird beim praktischen Teil nicht nur für die Kompilierung der Sass Datei in eine Css Datei ein Parser verwendet sondern auch für die Kompilierung in Less und Styulus Dateien.
+
+Für die Umsetzung des pratkischen Teils entschied sich die Autorin für Yeoman mit Grunt und Node.js.\newline
+Am Begin der Arbeit steht die Erstellung der Sass Datei. Die Animationen werden mit Mixins erstellt und in bestimmten Klassen aufgerufen. Somit wird dem Enduser die Verwendung der Datei erleichtert, da er in seinem Container nur noch die richtige Klasse aufrufen muss.
+Hier ein kurzer Codeausschnitt aus der Sass Datei:
+\begin{lstlisting}[
+	caption=main.scss,
+	firstnumber=15
+]
+
+Hier kommt einmal ein Code!!
+
+\end{lstlisting}
+Das Erstellen der Sass Datei ist ein wichtiger Teil, jedoch muss auch ermöglicht werden, diese Sass Datei in Css, Less oder Stylus umzuiwandeln. Hierfür gibt es das Gruntfile und die package.json.
+In der package.json werden alle benötigten Grunt-Libraries als Abhängigkeiten angegeben. Das heißt, bevor das Gruntfile richtig ablaufen kann, müssen alle Libraries installiert sein, die in der package.json stehen.\newline
+Auszug aus der package.json:
+\begin{lstlisting}[
+	caption=package.json,
+	firstnumber=3
+]
+"dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-contrib-sass": "0.8.1",
+    "grunt-sasslus":"0.0.1",
+    "grunt-scss2less":"~0.4.5",
+    "grunt-contrib-watch": "~0.6.1",
+    "jit-grunt": "~0.7.0"
+  }
+\end{lstlisting}
+Die Libraries in Zeile 4, 9 und 10 werden benötigt, damit das Gruntfile richtig ausgeführt wird und die anderen Libraries richtig interpretiert.
+Wie die Listing zeigt, gibt es für jeden Schritt, der benötigt wird um das Endergebnis der praktischen Arbeit zu erhalten, eine eigene Grunt-Library. Mit der \textit{grunt-contrib-sass} wird die Sass Datei in eine Css Datei kompiliert. \newline
+Wie der Name der Grunt-Library vermuten lässt, ist jene in Zeile 7 für die Kompilierung von Sass in Stylus und jene in Zeile 8 für die Kompilierung von Sass in Less.
+Zur Verwendung dieser Libraries wird nun ein Gruntfile benötigt, in dem genau definiert wird, wann welche Grunt-Library ausgeführt wird und was genau gemacht werden soll. Die nächste Lisiting zeigt einen Ausschnitt des in dieser Arbeit verwendeten Gruntfiles.
+\begin{lstlisting}[
+	caption=gruntfile.js,
+	firstnumber=16
+]
+module.exports = function(grunt) {
+   ...
+    sasslus: {
+      single: {
+        files: {
+          'stylus/main.styl': 'scss/main.scss'
+        }
+      },
+      multiple: {
+        files: [{
+          expand: true,
+          cwd: 'scss/',
+          src: '*.scss',
+          dest: 'stylus/',
+          ext: '.styl'
+        }]
+      }
+    },
+   ...
+  });
+
+  grunt.registerTask('default', ['less', 'sass', 'watch']);
+};
+\end{lstlisting}
+Die Listing zeigt jenen Auschnitt, in dem definiert wird, wie die sass Datei in Stylus umgewandelt werden soll. In Zeile 21 wird festgelegt, dass die kompilierte main.styl im Ordner Stylus gespeichert wird und dass die Quelldatei, die main.scss im Ordner scss ist.\newline
+Der Abschnitt von Zeile 24 bis 32 legt fest, dass alle scss datein, die sich im Ordner scss befinden, in stylus datein im Ordner styl kompiliert werden sollen.\newline
+Im hier verwendeten Gruntfile, sehen füjr alle festgelegten Kompilierungen die Codeabschnitte in etwa so aus wie jener aus Listing 37. Unterschiedlich ist lediglich die Bezeichnung der verwendeten Library, in Listing 37 sasslus, und das Ziel, in Listing 37 der Ordner stylus und die datei main.styl.
+
+Das Entwickeln dieser Library wurde von der Autorin als praktischer Teil der Arbeit gewählt, weil dieses Projekt die Verwendung von Präprozessoren und die Umwandlung dieser in Css am Besten darstellt. \newline
+Die Library bietet der Autorin die Möglichkeit, die Anwendung und Handhabung der, in dieser Arbeit vorgestellten, CSS-Präprozessoren, realitätsnahe zu verwirklichen und zusätzlich noch anderen Programmierer/innen eine einfache Lösung für CSS-Animationen zur Verfügung zu stellen.\newline
+\newpage
 \section{Ergebnisse}
 hier möchte ich die Ergebnisse aus dem praktischen Teil zusammenfassen: Installation(dauer, Schwierigkeiten ...), Codequalität, Codekomplexität, Browserkompatibilität (vielleicht fällt mir bei der Recherche noch mehr ein, was ich vorher vergleiche kann und hier präsentieren)
 

@@ -198,6 +198,31 @@
       \verb http://www.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/
       \endverb
     \endentry
+    \entry{ITWissen.info.2014}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=bd1aec64e169446b4e8f6cb3e8e74cd1}{ITWissen.info}{I\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=bd1aec64e169446b4e8f6cb3e8e74cd1}{ITWissen.info}{I\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=60872bf46cdb7de9f6f5fae9082a7405}{GmbH}{G\bibinitperiod}{DATACOM\bibnamedelima Buchverlag}{D\bibinitperiod\bibinitdelim B\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{bd1aec64e169446b4e8f6cb3e8e74cd1}
+      \strng{fullhash}{bd1aec64e169446b4e8f6cb3e8e74cd1}
+      \field{sortinit}{I}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Workflow}
+      \field{title}{Workflow}
+      \field{urlday}{08}
+      \field{urlmonth}{02}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.itwissen.info/definition/lexikon/Workflow-workflow.html
+      \endverb
+    \endentry
     \entry{Jung.2010}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=dc428d530d1fa0260bc3ce03504e63e1}{Jung}{J\bibinitperiod}{Jean-Baptiste}{J\bibinithyphendelim B\bibinitperiod}{}{}{}{}}%
