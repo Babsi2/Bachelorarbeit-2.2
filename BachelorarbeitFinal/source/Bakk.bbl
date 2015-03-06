@@ -132,6 +132,29 @@
       \verb http://www.hongkiat.com/blog/sass-vs-less/
       \endverb
     \endentry
+    \entry{Garsiel.}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=ca1703b17e9771cdfca92817b3e8d496}{Garsiel}{G\bibinitperiod}{Tali}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=ca1703b17e9771cdfca92817b3e8d496}{Garsiel}{G\bibinitperiod}{Tali}{T\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{ca1703b17e9771cdfca92817b3e8d496}
+      \strng{fullhash}{ca1703b17e9771cdfca92817b3e8d496}
+      \field{sortinit}{G}
+      \field{labelyear}{2015}
+      \field{labelmonth}{02}
+      \field{labelday}{23}
+      \field{datelabelsource}{url}
+      \field{labeltitle}{How Browsers Work: Parsing General}
+      \field{title}{How Browsers Work: Parsing General}
+      \field{urlday}{23}
+      \field{urlmonth}{02}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://taligarsiel.com/Projects/howbrowserswork1.htm#Parsing_general
+      \endverb
+    \endentry
     \entry{Gerchev.2012}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=7411a3f4c3bd072cb966bee4bd636f41}{Gerchev}{G\bibinitperiod}{Ivaylo}{I\bibinitperiod}{}{}{}{}}%

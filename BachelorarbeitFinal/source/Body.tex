@@ -143,31 +143,35 @@ Wie im vorherigen Absatz erwähnt, kann durch die Verwendung der Erweiterungen d
 Die 2 genannten Libraries Koala und CodeKit ermöglichen es, die erstellten Stylesheets in Echtzeit zu kompilieren, so kann der Workflow ein weiteres mal verbessert werden, da die Erstellung des Stylesheets und dessen Kompilierung parallel ablaufen.
 
 Nachdem in den vorangegangenen Absätzen die Vorteile und Nachteile von Präprozessoren erläutert wurden, wird in den Nächsten Kapiteln noch etwas genauer auf den Begriff \glqq{} Software Komponenten \grqq{} eingegangen.
+\newpage
 \subsection{Software Komponenten}
 Software Komponenten (im weiteren Verlauf als Komponenten bezeichnet) sind wiederverwendbare Bausteine einer Applikation, welche aus Software Code bestehen. Komponenten implementieren spezifische Funktionalitäten gemeinsam mit vordefinierten Schnittstellen. Da es sich um wiederverwendbare Teile von Code handelt, sind Komponenten sogenannte Software-Bausteine, die einen bestimmten Bereich eines Geschäftsfeldes kapseln, jedoch keine abgeschlossene Applikation darstellen, und nicht für sich alleine ablaufen können. \autocite[1]{Andresen.2003}\newline
 In Bezug auf diese Arbeit, sind bspw. Mixins Komponenten von CSS-Präprozessoren. Diese Komponente kann wiederverwendet werden und bildet einen eigenschändigen Bereich des CSS-Präprozessors. Wie beschrieben, ist sie jedoch keine abgeschlossene Applikation und kann nicht alleine Ablaufen.
 
 Im Buch von Andreas Andresen, Komponentenbasierte Softwareentwicklung, \autocite[]{Andresen.2003} werden auf Seite 2 einige Vorteile von Komponenten aufgezählt. Die wichtigsten für diese Arbeit sind folgende:
-\begin{itemize}
+\begin{enumerate}
   \item überschaubare Größenordnung
   \item trennen Zuständigkeiten
   \item einfach einsetzbar und kombinierbar
   \item einfach wiederverwendbar
   \item fördern eine schnelle Applikationsentwicklung
   \item einfach austauschbar
-\end{itemize} 
-Neben Vorteilen gibt es auch noch wichtige Anforderungen an die Architektur von Komponenten, welche anhand des genannten Beispiels von Mixins, näher erklärt werden. Die Anforderungen stammen aus dem bereits genannten Buch von Seite 6. Die wichtigesten Anforderungen sind: 
+\end{enumerate} 
+Diese Vorteile haben teilweise auch die Erweiterungen von CSS-Präprozessoren. Beispielsweise Mixins. Mixins können im weitesten Sinne als Software Komponenten bezeichnet werden. Die Punkte aus der Aufzählung können genau auf Mixins übertragen werden. Mixins haben eine überschaubar Größenordnung, da sie meist nur eine Aufgabe erfüllen, wie z.B. einen Hintergrund mit Farbverlauf oder eine CSS-Transition zu erstellen.\newline
+Ein Mixin erfüllt auch die Punkt 3, 4 und 6. Ein Mixin kann an jeder Stelle des Stylesheets verwendet werden und ist austauschbar. Das heißt, es kann einfach ein anderes Mixin verwendet werden. Ebenso kann es kompiniert werden, in dem 2 Mixins beim selben Selector aufgerufen werden.\newline
+Ein Mixin hat also alle Vorteile, die eine Software Komponente auch besitzt. Jedocch gibt es auch Anforderungen an Software Komponenten \autocite[6]{Andresen.2003}. Folgende Aufzählung zeigt einige Anforderungen an die Architektur:
 \begin{enumerate}
-  \item die Ermöglichung  einer einfachen Kommunikation von System und Komponente untereinander
-  \item komplexe Zusammenhänge innerhalb von Systemen und zwischen Komponenten und Systemen müssen auf übersichtliche und einfache Weise strukturiert werden können.
-  \item Komponenten und Systeme müssen effizient dimensioniert werden
-  \item bestehende Komponenten müssen einfach integrierbar sein
-  \item eine einfach Wiederverwendung der Komponenten muss ermöglicht werden
-  \item die Zuständigkeit muss klar getrennt sein
-  \item das System muss die Anforderungen in Bezug auf Robustheit, Zuverlässigkeit, Performance, Sicherheit und Skalierbarkeit erfüllen
+\item die Ermöglichung einer einfachen Kommunikation von Stytem und Komponente untereinander
+\item komplexe Zusammenhänge innerhalb von Stystemen und zwischen Komponenten und Stystemen müssen auf übersichtliche und einfache Weise strukturiert werden können.
+\item Komponenten und Stysteme müssen effizient dimensioniert werden
+\item bestehende Komponentnen müssen einfach integrierbar sein
+\item eine einfache Wiederverwendung der Komponenten muss ermöglicht werden
+\item die Zuständigkeit muss klar getrennt sein.
+\item das System muss die Anforderungen in Bezug auf Robustheit, Zuverlässigkeit, Performance, Sicherheit und Skalierbarkeit erfüllen.
 \end{enumerate}
-
-Den ersten Punkt der Aufzählung erfüllt ein Mixin, da 
+Bei den Anforderungen an die Architektur, kann ein Mixin nicht alle Punkte klar einhalten. Die Punkte 4, 5, 6 können von Mixins erfüllt werden, da diese ja auch die größten Vorteile eines Mixins darstellen. Bei den anderen Punkten kann dies jedoch nicht ganz deutlich definiert werden. \newline
+Ein Mixin als eine Erweiterung eines CSS-Präprozessors, muss diese Punkte nicht erfüllen. Es gibt keine direkten Anforderungen an die Erweiterungen in diesem Sinne.\newline
+Nach Ansicht der Autorin dieser Arbeit, kann deshalb ein Mixin nur im wieteren Sinne als eine Software Komponente bezeichnet werden. Auch die anderen Erweiterungen von CSS-Präprozessoren können, wenn dann nur im weiteren Sinne als solche bezeichnet werden.
 \newpage
 \subsection{Less}
 Less ist einer der genannten CSS-Präprozessoren und wird in diesem Kapitel genauer erklärt.\newline
@@ -195,6 +199,8 @@ In einem späteren Kapitel wird noch auf die Verwendung der genannten Erweiterun
 Sass ist eine Erweiterung von CSS3, welche Variablen, Mixins, Selectoren, Funktionen und andere Erweiterungen anbietet. Somit ist Sass ein Präprozessor, welcher schon in einem früheren Kapitel erklärt wurde, von CSS.\newline
 Einer der größten Vorteile eines CSS-Präprozessors ist, dass man in der Entwicklung verschiedene Dateien haben kann, ohne Performance einzubüßen.\newline
 Um Sass in CSS umzuwandeln, verwendet man entweder die Kommandozeile oder eines von verschiedenen web-frameworks welche die notwendigen Funktionen bereitstellen. Darauf wird später noch genauer eingegangen.\newline
+Ursprünglich wurde Sass in ruby geschrieben. Zur Installation von Sass muss voher Ruby installiert werden. Auf Max OS ist ruby standardmäßig vorhanden, somit kann hier Sass sofort installiert werden. Inzwischen gibt es sass auch ohne Ruby. Libsass kann mit node.js verwendet werden. \newline
+Um jedoch alle Vorteile von Sass verwenden zu können, bspw. Compass muss Ruby installiert sein, da Compass auf Sass basiert und ebenso in Ruby geschrieben wurde.\newline
 Für Sass gibt es zwei verschieden Syntaxen. Die Ursprüngliche Syntax verwendet die Dateiendung .sass und verwendet Einrückungen statt der geschwungenen Klammern um die Verschachtelung der Selektoren anzuzeigen und Zeilenumbrüche statt eines Semicolons um die Eigenschaften zu trennen.\newline
 Die neuere Syntax verwendet die Dateiendung .scss. Hier werden im Gegensatz zur alten Syntax wieder Klammern und Semicolon verwendet.  \autocite[]{Yard.2014}\newline
 Folgender Codeausschnitt zeigt eine CSS-Datei mit der ursprüngliche Sass Syntax:
@@ -454,113 +460,67 @@ Der Begriff Superset darf nicht mit dem Begriff Erweiterung verwechselt werden.\
 Bei einer Obermenge ist dessen Untermenge immer Valide für die Obermenge, das heißt bei einem Superset wie SCSS ist das CSS, die Untermenge, immer valides SCSS.\newline
 Bei den Erweiterungen Sass und Stylus gilt dies jedoch nicht, da die Syntax dieser Präprozessoren nicht dieselbe von CSS3 ist. Auf die Syntax und die Unterschiede wird in einem späteren Kapitel noch näher eingegangen.
 
-\section{Lexer/Parser}
+\section{Parser}
 Ein Parser ist ein Programm zur Zerlegung und Umwandlung einer beliebigen Eingabe, welche zur Weiterverarbeitung in ein brauchbares Fromat umgewandelt wird. Ein Parser erzeugt zusätzliche Strukturbeschreibungen. Parsing bedeuted Syntaxanalyse. \newline
 Der Parser verwendet zur Analyse von Text einen lexikalischen Scanner, auch Lexer genannt. Ein Lexer zerlegt die Eingabe in sogenannte Tokens (beispielsweise Wörter oder Eingabesymbole) die der Parser versteht. \newline
 Bei einem HTML Code würde der Lexer die Datei ind HTML-Tags und Fließtext zerteilen und so an den Parser weiterleiten. Den Lexer interessiert nur das Aussehen der Syntaxelemente wie z.b. die spietzen Klammern eines Tags. Der Parser verarbeitet dann die syntaktischen Zusammenhänge. Er untersucht also, welche Paar von Tags zusammengehören oder wie diese verschachtelt sind. Die inhaltliche Bedeutung der Tags interessiert den Parser nicht, dafür ist dann die Weiterverarbeitung zuständig.
 
 Im Falle dieser Arbeit würde also der Lexer die Datei welche in Less, Stylus oder Sass bzw. Scss geschrieben wurde, zerlegen. In diesem Fall interessieren den Lexer beispielsweise die Klammern und die Strichpunkte oder wie in Sass die Abstände und Einrückungen.
 
-Auch einige Präprozessoren verwenden einen Parser um die erstellten Dateien in CSS umzuwandeln. Nachfolgende Abschnitte erläutern, wie die beschriebenen Präprozessoren in CSS umwandeln. 
+Der Parser baut eine Datenstruktur bsbw. einen Parsingbaum oder einen Syntaxbaum und überprüft die Korrektheit der Syntax im Prozess. Er kann entweder selbst oder mit einem Generator programmiert werden. Der Input eines Parsers, kann sowohl Text in einer Programmiersprache als auch normaler Text sein. Eine wichtige Klasse, eines einfachen Parsers ist die \glqq{} Regular Expression \grqq{}.
+
+Wie ein Parser verwendet wird, hängt vom Input ab. Bei einer Markup Sprache wie HTML oder XML wird der Parser zum Lesen der Datein verwendet, bei Programmierpsrachen wie C++, ist ein Parser eine Komponente eines Kompilers oder Interpreters, welcher den Source Code des Programmes parsed.\newline\newline
+Jedes Format, welches geparsed werden kann, muss eine deterministische Grammatik, also eine Grammatik, welche aus Systaxregeln und Vokabeln besteht, haben. Diese Art von Grammatik wird als \glqq{} Kontextfreie Grammatik \glqq{} bezeichnet. Die menschliche Sprache hat keine deterministische Grammatik und kann somit nicht so einfach mit einem konventionellen Parser geparsed werden. \autocite[]{Garsiel.}\newline\newline
+Als eine kontextfreie Grammatik, wie im vorigen Abschnitt beschrieben, wird eine Grammatik bezeichnet, welche Ersetzungsregeln enthält, die nur genau ein Nichtterminalsymbol enhält. Nichtterminalsymbol bedeutet, dass ein Symbol nicht in den endgültigen Wörtern vorkommt. Nichtterminalsymbole kommen nur in Zwischenschritten vor und werden durch das Anwenden von Regeln nach und nach ersetzt, bis nur noch Terminalsymbole vorhanden sind.\newline\newline
+Es gibt 2 Hauptarten von Parsern: den \glqq{}Top down \grqq{} und den \glqq{} Bottom Up \grqq{} Parser. Der Top Down parser geht von Oben nach Unten, in diesem Fall ist das Level der Struktur in der Syntax gemeint. Bottom up geht, wie der Name schon sagt, von Unten nach Oben. Also vom niedrigsten Level zum Höchsten. \newline
+Ein einfaches Beispiel für einen Parser ist das parsen folgender mathematischer Rechnung:
+2+3-1\newline
+Der Top Down Parser beginnt bei 2+3 als Expression und geht weiter zu 2+3-1 als Expression. \newline
+Der Bottom Up Parser scannt den Input bis eine Regel stimmt und ersetzt den Input mit der Regel. Dieses Vorgehen wird wiederholt, bis kein Input mehr vorhanden ist. Folgende Abbildung zeigt, wie der Stack des Parsers aussieht:
+\begin{table}[h]
+          \centering
+          \begin{tabular}{|c|c|} \hline
+                  \textbf{Stack} & \textbf{Input}\\
+                   \hline
+                     & 2+3-1\\ \hline
+                    term & +3-1\\ \hline
+                    term operation &3-1\\ \hline
+                    expression & -1\\ \hline
+	         expression operation & 1\\ \hline
+	        expression & \\ \hline
+          \end{tabular}
+          \caption{
+	       Parser Stack: Bottom Up Parser
+          }
+         \label{table:Vergleich Browser}
+\end{table}\autocite[]{Garsiel.}\newline\newline
+Der Top Down Parser wird auch als LL Parser bezeichnet, welcher von Links nach rechts parst und eine Linksableitung der Eingabe bildet. Bei einer Linksableitung wird das am weitesten Links stehende Nichtterminalsymbol durch Anwendung einer Regel ersetzt. Im Gegensatz dazu, gibt es noch den LR Parser, welcher eine Rechtsableitungbildet und gleich dem Bottom Up Parser ist.\newline
+Neben dem LL Parser, gibt es noch den LL(k) parser welcher beim parsen des Inputs mehrere Tokens vorausschaut. 
+
+Nachdem im bisherigen Kapitel der Begriff Parser etwas näher betrachtet wurde, wird im Folgenden auf die Parser der beschriebenen CSS-Präprozessoren näher eingegangen.
 
 \textbf{Less}\newline
-Im letzten Absatz wurde gemeinsam zum Parser immer vom Tokenizer oder auch Lexer gesprochen. Less zeigt, dass der Tokenizer nicht zwingend verwendet werden muss.
-Less verwendet beim Parsen keinen Tokenizer, also keinen Lexer. Der Parser von Less durchläuft die Eingabe, den Less-Code, einmal und parsed alles. Das heißt es gibt eine Function in der für alle spezialfälle wieder eigene Funktionen geschrieben werden.
-Beispielsweise folgender Codeausschnitt aus dem Parser:
-\begin{lstlisting}[
-           caption=Less Parser,
-]
-var Parser = function Parser(context, imports, fileInfo) {
-  var parsers,
-    parserInput = getParserInput();
-    // The Parser
-    return {
-       
-      parsers: parsers = {
-      
-        primary: function () {
-          var mixin = this.mixin, root = [], node;
+Im letzten Absatz wurde gemeinsam zum Parser vom Tokenizer oder auch Lexer gesprochen. Less zeigt, dass der Tokenizer nicht zwingend verwendet werden muss.
+Less verwendet beim Parsen keinen Tokenizer, also keinen Lexer. Der Parser von Less durchläuft die Eingabe, den Less-Code, einmal und parsed alles. Das heißt es gibt eine FunKtion in der für alle spezialfälle wieder eigene Funktionen geschrieben werden.
+Bei Less werden nur jene Werte geparst, die eine Variable, Operationen oder dynamische referenzen aufweisen. Andere Werte werden übersprungen. Ein Beispiel für einen Wert, der übersprungen werden kann, ist: '1px solid \#000'.\newline
+Dieser Wert sieht in CSS gleich aus und muss somit nicht verändert werden.\newline
+Beinhaltet der Wert eine Variable wie bspw. @color statt \#000, muss geparst werden.\newline
+CSS kann keine Variablen, somit muss an jene stelle im Parser gesprungen werden, an der die Variable geparst wird. An der Stelle, wird dann mit einer regular expression gesucht, welche Variable enthalten ist, um anschließend diese Variable und den dazugehörigen Wert zu finden. 
 
-          while (true)
-          {
-            while (true) {
-              node = this.comment();
-              if (!node) { break; }
-              root.push(node);
-            }
-            // always process comments before deciding if finished
-            if (parserInput.finished) {
-              break;
-            }
-            if (parserInput.peek('}')) {
-              break;
-            }
-
-            node = this.extendRule();
-            if (node) {
-              root = root.concat(node);
-              continue;
-            }
-
-            node = mixin.definition() || this.rule() || this.ruleset() ||
-            mixin.call() || this.rulesetCall() || this.directive();
-            if (node) {
-              root.push(node);
-            } else {
-            if (!(parserInput.$re(/^[\s\n]+/) || parserInput.$re(/^;+/))) {
-              break;
-            }
-          }
-       }
-
-       return root;
-      },
-
-     entities: {
-       variable: function () {
-         var name, index = parserInput.i;
-
-         if (parserInput.currentChar() === '@' && (name = parserInput.$re(/^@@?[\w-]+/))) {
-           return new(tree.Variable)(name, index, fileInfo);
-         }
-       },
-
-      // A variable entity useing the protective {} e.g. @{var}
-       variableCurly: function () {
-         var curly, index = parserInput.i;
-
-          if (parserInput.currentChar() === '@' && (curly = parserInput.$re(/^@\{([\w-]+)\}/))) {
-            return new(tree.Variable)("@" + curly[1], index, fileInfo);
-          }
-        },
-
-      },
-
-      variable: function () {
-        var name;
-
-        if (parserInput.currentChar() === '@' && (name = parserInput.$re(/^(@[\w-]+)\s*:/))) { return name[1]; }
-      },
-
-    }
-  };
-};
-Parser.serializeVars = function(vars) {
-  var s = '';
-
-  for (var name in vars) {
-    if (Object.hasOwnProperty.call(vars, name)) {
-       var value = vars[name];
-       s += ((name[0] === '@') ? '' : '@') + name + ': ' + value +
-      ((String(value).slice(-1) === ';') ? '' : ';');
-    }
-  }
-
-  return s;
-};
-
-module.exports = Parser;
-\end{lstlisting}
+Wie beschrieben, ist der Hauptparser von Less lediglich für die Delegation zuständig. Er überprüft, welche Funktion, Variable oder Operation im Selektor vorkommt und delegiert die Aufgabe dann an die jeweilige Parsingfunktion weiter.
+\newline\newline
+\textbf{Sass/Scss}\newline
+Sass bzw. Scss ist wie in Kapitel 2.4 beschrieben, in Ruby geschrieben. Somit ist auch der Parser in ruby geschrieben.\newline
+Der Parser von Sass ist ähnlich dem von Less. Es gibt eine Funktion, in der die möglichen Aufrufe im Stylesheet initialisiert werden. Bespw. für ein Mixin. Anschließend werden alle unterschiedlichen Aufrufe durchgegangen. Mit einem Lexer werden dann die Tokens gescannt und so umgewandelt.
+Der Unterschied zwischen den Parsern von Sass und Scss liegt vor allem im Lexer, da die Syntax unterschiedlich ist und so verschiedene Aufrufe andere Tokens enthalten. \newline
+Der Parser ist also für Sass und Scss gleich aufgebaut, es gibt jedoch zwei verschiedene Lexer, die in getrennten Dateien definiert werden.
+\newline\newline
+\textbf{Stylus}\newline
+Im Gegensatz zu Less verwendet Stylus, wie auch Sass einen Lexer. Der Parser von Stylus ist so aufgbaut, dass zu Begin alle möglichen Selektoren in ein Array gespeichert werden. Anschließend wird der Parser mit den mitgegebenen Optionen und Strings initialisiert. An dieser Stelle wird auch der Lexer initiasiliert.\newline
+Im weiteren Verlauf des Parsers, wird mit 2 Funktionen der letzte und aktuelle Stand des Parsers ermittelt und der Input geparsed.\newline
+Der Parser von Stylus ist ein LL(k) Parser, dieser wurde schon zu Begin des Kapitels erklärt. Bei Stylus gibt es beim Parser eine Funktion, welche den nächsten Token zurückgibt. Die darauffolgende Funktion betrachtet den Input mit einem Lookahead(1), das heißt er schaut um 1 Token voraus. Wird bei dieser Funktion kein Error ausgegeben, geht der Parser weiter und überprüft den Input mit Lookahead(n). \newline
+Die nächsten Funktionen des Parsers überprüfen, ob das Token ein Selector oder ein pseudo Selector, welche zu beginn des Parsers jeweils in ein Array gespeichert wurden, ist. Wenn das der Fall ist, folgen Überprüfungen auf Validiät und welche Art von Selector das Token ist. Der Parser überprüft an dieser Stelle auch, ob es sich um eine Funktion, ein Leerzeichen oder ähnliches handelt und führt im weiteren die dementsprechenden Funktionen aus. Bei einem Leerzeichen bspw. wird dieses Übersprungen und weitergegangen.\newline
+Bei Stylus sind auch if-statements möglich, somit überprüft der Parser auch, ob solche im Input enthalten sind und bearbeitet diese.
 \newpage
 
 
@@ -864,72 +824,149 @@ Um die Library gut vorstellen zu können, werden die mit Sass erstellten Animati
 \textbf{Umsetzung}
 
 Wie wird nun die Erstellung dieses pratkischen Teils umgesetzt? \newline
-Bereits in vorangegangenen Kapiteln wurde beschrieben, dass Less oder Sass oder Stylus geparst werden muss, um daraus Css zu erhalten. Nun wird beim praktischen Teil nicht nur für die Kompilierung der Sass Datei in eine Css Datei ein Parser verwendet sondern auch für die Kompilierung in Less und Styulus Dateien.
+Bereits in vorangegangenen Kapiteln wurde beschrieben, dass Less oder Sass oder Stylus geparst werden muss, um daraus Css zu erhalten. Nun wird beim praktischen Teil nicht nur für die Kompilierung der Sass Datei in eine Css Datei ein Parser verwendet sondern auch für die Kompilierung in Less und Styulus.
 
 Für die Umsetzung des pratkischen Teils entschied sich die Autorin für Yeoman mit Grunt und Node.js.\newline
 Am Begin der Arbeit steht die Erstellung der Sass Datei. Die Animationen werden mit Mixins erstellt und in bestimmten Klassen aufgerufen. Somit wird dem Enduser die Verwendung der Datei erleichtert, da er in seinem Container nur noch die richtige Klasse aufrufen muss.
 Hier ein kurzer Codeausschnitt aus der Sass Datei:
 \begin{lstlisting}[
 	caption=main.scss,
-	firstnumber=15
+	firstnumber=43
 ]
+@mixin rotate{
+	.box:hover{
+		-moz-transform:rotate(30deg); /* Firefox 3.6 Firefox 4 */
+		-webkit-transform:rotate(30deg); /* Safari */
+		-o-transform:rotate(30deg); /* Opera */
+		-ms-transform:rotate(30deg); /* IE9 */
+		transform:rotate(30deg); /* W3C */
+	}
+}
+...
 
-Hier kommt einmal ein Code!!
+.rotate{
+	@include rotate;
+}
 
 \end{lstlisting}
+Der Code in Listing 34 zeigt, wie in der neuen Syntax von Sass, welche schon in einem früheren Kapitel erläutert wurde, ein Mixin erstellt und verwendet wird. \newline
+Das Mixin rotate dient dazu, den div container, auf den das Mixin angewendet wird, um 30 Grad im Uhrzeigersinn zu drehen . Das in der Listing dargestellten Mixin ist nur eines von einigen, welche in der praktischen Arbeit angewendet werden. Das vollständige Stylesheet und die dazugehörige HTML-Datei befindet sich im Anhang. \newline\newline
 Das Erstellen der Sass Datei ist ein wichtiger Teil, jedoch muss auch ermöglicht werden, diese Sass Datei in Css, Less oder Stylus umzuiwandeln. Hierfür gibt es das Gruntfile und die package.json.
 In der package.json werden alle benötigten Grunt-Libraries als Abhängigkeiten angegeben. Das heißt, bevor das Gruntfile richtig ablaufen kann, müssen alle Libraries installiert sein, die in der package.json stehen.\newline
 Auszug aus der package.json:
 \begin{lstlisting}[
 	caption=package.json,
-	firstnumber=3
+	firstnumber=25
 ]
 "dependencies": {
+    "yeoman-generator": "^0.18.0",
+    "chalk": "^0.5.0",
+    "yosay": "^0.3.0",
+    "fs": "*",
     "grunt": "~0.4.5",
-    "grunt-contrib-sass": "0.8.1",
-    "grunt-sasslus":"0.0.1",
-    "grunt-scss2less":"~0.4.5",
+    "load-grunt-tasks": "*",
+    "grunt-cli": "0.1.13",
+    "grunt-sass": "0.8.1",
+    "grunt-scss2less":"*",
     "grunt-contrib-watch": "~0.6.1",
+    "grunt-contrib-clean": ">=0.4.0",
     "jit-grunt": "~0.7.0"
-  }
+  },
 \end{lstlisting}
-Die Libraries in Zeile 4, 9 und 10 werden benötigt, damit das Gruntfile richtig ausgeführt wird und die anderen Libraries richtig interpretiert.
-Wie die Listing zeigt, gibt es für jeden Schritt, der benötigt wird um das Endergebnis der praktischen Arbeit zu erhalten, eine eigene Grunt-Library. Mit der \textit{grunt-contrib-sass} wird die Sass Datei in eine Css Datei kompiliert. \newline
-Wie der Name der Grunt-Library vermuten lässt, ist jene in Zeile 7 für die Kompilierung von Sass in Stylus und jene in Zeile 8 für die Kompilierung von Sass in Less.
-Zur Verwendung dieser Libraries wird nun ein Gruntfile benötigt, in dem genau definiert wird, wann welche Grunt-Library ausgeführt wird und was genau gemacht werden soll. Die nächste Lisiting zeigt einen Ausschnitt des in dieser Arbeit verwendeten Gruntfiles.
+Die Libraries in Zeile 30, 32 und 37 werden benötigt, damit das Gruntfile richtig ausgeführt wird und die anderen Libraries richtig interpretiert.
+Wie die Listing zeigt, gibt es für jeden Schritt, der benötigt wird um das Endergebnis der praktischen Arbeit zu erhalten, eine eigene Grunt-Library. Mit der \textit{grunt-contrib-sass} bspw. wird die Sass Datei in eine Css Datei kompiliert. \newline
+Wie der Name der Grunt-Library vermuten lässt, ist jene in Zeile 34 für die Kompilierung von Sass in Less, für die Umwandlung von Less in Stylus, gibt es keinen vorgefertigten Grunt-Task, daher wurde dieser eigens erstellt.\newline
+Zur Verwendung dieser Libraries wird nun ein Gruntfile benötigt, in dem genau definiert wird, wann welche Grunt-Library ausgeführt wird und was genau gemacht werden soll. Die nächste Lisiting zeigt einen Ausschnitt des, in dieser Arbeit verwendeten, Gruntfiles.
 \begin{lstlisting}[
 	caption=gruntfile.js,
-	firstnumber=16
+	firstnumber=30
 ]
-module.exports = function(grunt) {
-   ...
-    sasslus: {
-      single: {
-        files: {
-          'stylus/main.styl': 'scss/main.scss'
-        }
+  scss2less: {
+      options: {
+        sourceMap: 'none'
       },
-      multiple: {
-        files: [{
-          expand: true,
-          cwd: 'scss/',
-          src: '*.scss',
-          dest: 'stylus/',
-          ext: '.styl'
-        }]
+      dist: {
+        files: {
+          'less/main.less': 'sass/main.scss'
+        }
       }
-    },
-   ...
+    }
+    less2stylus: {
+      files: 'less/main.less'
+    }
   });
-
-  grunt.registerTask('default', ['less', 'sass', 'watch']);
-};
+  grunt.registerTask('default', ['scss2less:dist', 'less2stylus', 'watch']);
+  grunt.loadNpmTasks('load-grunt-tasks');
+  grunt.loadTasks('tasks');
 \end{lstlisting}
-Die Listing zeigt jenen Auschnitt, in dem definiert wird, wie die sass Datei in Stylus umgewandelt werden soll. In Zeile 21 wird festgelegt, dass die kompilierte main.styl im Ordner Stylus gespeichert wird und dass die Quelldatei, die main.scss im Ordner scss ist.\newline
-Der Abschnitt von Zeile 24 bis 32 legt fest, dass alle scss datein, die sich im Ordner scss befinden, in stylus datein im Ordner styl kompiliert werden sollen.\newline
-Im hier verwendeten Gruntfile, sehen füjr alle festgelegten Kompilierungen die Codeabschnitte in etwa so aus wie jener aus Listing 37. Unterschiedlich ist lediglich die Bezeichnung der verwendeten Library, in Listing 37 sasslus, und das Ziel, in Listing 37 der Ordner stylus und die datei main.styl.
+Die Listing zeigt jenen Auschnitt, in dem definiert wird, wie die sass Datei erst in Less umgewandelt werden soll, um anschließend mit dem selbst erstellten Task von Less in Stylus konvertiert zu werden.\newline
+Im hier verwendeten Gruntfile, sehen für alle festgelegten Kompilierungen die Codeabschnitte in etwa so aus wie jener aus Listing 36. Unterschiedlich ist lediglich die Bezeichnung der verwendeten Library, in Listing 36 scss2less bzw. less2stylus, und das Ziel, in Listing 37 der Ordner less und die datei main.less.\newline
+Beim Task less2stylus wird nur die Quelldatei nicht aber die Zieldatei im Gruntfile angegeben.\newline\newline
+In den Zeilen 30 bis 39 wird der Task scss2less genau definiert. Hier wird angegeben, dass die Quelldatei 'main.scss' im Ordner 'sass' in die Zieldatei 'main.less' im Ordner 'less' konvertiert wird. Der Task wird in Zeile 45 mit dem Befehl 'scc2less:dist' aufgerufen.\newline
+Auf die selbe Weise wird der Task less2stylus definiert. Hier wird jedoch wie erwähnt nur die Quelldatei angegeben.\newline\newline
+Wie zu Beginn des Kapitels angeführt wurde, stellt der praktische Teil dieser Arbeit eine Library in Form eines Yeoman Generators dar. Um einen Yeoman Generator zu erstellen, benötigt es nicht nur eine Package.json und ein Gruntfile.js sondern auch eine index.js in der definiert wird, was beim Aufruf des Generators ausgeführt wird. Nachfolgende Listing zeigt einen Ausschnitt dieser index.js.
+\begin{lstlisting}[
+	caption=index.js,
+	firstnumber=6
+]
+module.exports = yeoman.generators.Base.extend({
+  initializing: function () {
+    this.pkg = require('../package.json');
+    this.on('end', function () {
+      if (!this.options['skip-install']) {
+        this.installDependencies();
+      }
+    });
+  },
 
-Das Entwickeln dieser Library wurde von der Autorin als praktischer Teil der Arbeit gewählt, weil dieses Projekt die Verwendung von Präprozessoren und die Umwandlung dieser in Css am Besten darstellt. \newline
+  prompting: function () {
+    var done = this.async();
+
+    // Have Yeoman greet the user.
+    this.log(yosay(
+      'Welcome to the doozie ' + chalk.red('Animations') + ' generator!'
+    ));
+
+    var prompts = [{
+      name: 'someOption',
+      message: "Waehlen Sie eine Stylesheetvariante? (CSS/Stylus/Less/Scss)",
+      default: 'Scss'
+    }];
+
+    this.prompt(prompts, function (props) {
+      this.someOption = props.someOption;
+
+      done();
+    }.bind(this));
+  },
+\end{lstlisting}
+Die aufgeführte Listing zeigt, wie der Generator aufgerufen und initialisiert wird. Zeile 8 der Listing bindet die package.json, aus welcher ein Auschnitt gezeigt wurde, ein.\newline
+Somit können die benötigten node packages durch den Aufruf der Funktion in den Zeilen 9 bis 13 installiert werden.\newline
+Die Funktion 'prompting' in den Zeilen 16 bis 35 bietet die Möglichkeit individuelle Ausgaben in der Console zu schreiben. Der Prompt in Zeile 24 bis 28 bspw. ist jener Prompt der dem User anzeigt, eine Stylesheetvariante zu wählen. Der Userinput auf diese Frage, entscheidet den weiteren Verlauf der Library. Im weiteren Code der index.js, der im Anhang zu sehen ist, wird für jede Eingabe definiert, was anschließend passiert. Wählt der User z.B. Less, sieht der Code folgendermaßen aus:
+\begin{lstlisting}[
+	caption=index.js,
+	firstnumber=65
+]
+        case 'Less':
+          this.mkdir('sass');
+          this.fs.copy(
+            this.templatePath('main.scss'),
+            this.destinationPath('/sass/main.scss')
+          );
+          this.fs.copy(
+            this.templatePath('less/Gruntfile.js'),
+            this.destinationPath('Gruntfile.js')
+          );
+          this.fs.copy(
+            this.templatePath('less/package.json'),
+            this.destinationPath('package.json')
+          );
+        break;
+\end{lstlisting}
+Durch den Code in Listing 38 wird die ursprüngliche Scss Datei in einen Ordner kopiert. Ebenso werden das Gruntfile und die Package.json in den richtigen Ordner kopiert. \newline
+Anschließend, kann der user mit dem Befehl 'grunt' das Ausführen der Tasks im Gruntfile aufrufen und erhält nach erfolgreicher Durchführung das gewünschte Stylesheet.
+\newline\newline
+Das Entwickeln dieser Library wurde von der Autorin als praktischer Teil der Arbeit gewählt, da dieses Projekt die Verwendung von Präprozessoren und die Umwandlung dieser in Css am Besten darstellt. \newline
 Die Library bietet der Autorin die Möglichkeit, die Anwendung und Handhabung der, in dieser Arbeit vorgestellten, CSS-Präprozessoren, realitätsnahe zu verwirklichen und zusätzlich noch anderen Programmierer/innen eine einfache Lösung für CSS-Animationen zur Verfügung zu stellen.\newline
 \newpage
 \section{Ergebnisse}
