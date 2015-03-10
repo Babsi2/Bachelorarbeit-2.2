@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  6 MAR 2015 22:47
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  9 MAR 2015 22:05
 entering extended mode
 **D:/FH/Sem5.2/Bakk*2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex
 ("D:/FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex"
@@ -1271,6 +1271,9 @@ Package biblatex-chicago Warning: Empty Ibidem citation on input line 119.
 Package biblatex-chicago Warning: Empty Ibidem citation on input line 122.
 
 
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 125.
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 127--129
 
  []
@@ -1280,104 +1283,113 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--134
 
  []
 
-[5] [6]
+[5] [6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 172--176
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 151.
+ []
 
-[7] [8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 276--277
+[8] [9] [10] [11]
+Underfull \hbox (badness 10000) in paragraph at lines 278--279
 
  []
 
 [12]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 289.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 292.
 
 [13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 352--355
+Underfull \hbox (badness 10000) in paragraph at lines 355--358
 
  []
 
-[15] [16] [17] [18]
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 496.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 472--499
+[15] [16] [17]
+Underfull \hbox (badness 10000) in paragraph at lines 459--464
 
  []
 
+[18]
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--499
-
- []
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 498.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--499
+Underfull \hbox (badness 10000) in paragraph at lines 474--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 472--499
-
- []
-
-[19] [20]
-Underfull \hbox (badness 10000) in paragraph at lines 510--524
+Underfull \hbox (badness 10000) in paragraph at lines 474--501
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 510--524
+Underfull \hbox (badness 10000) in paragraph at lines 474--501
 
  []
 
-[21] [22]
-Overfull \hbox (23.30176pt too wide) in paragraph at lines 529--530
-\T1/lmr/m/n/12 Variablen sind wie schon in Ka-pi-tel 2.5.1 be-schrie-ben, ei-ne
+
+Underfull \hbox (badness 10000) in paragraph at lines 474--501
+
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19]
+Underfull \hbox (badness 10000) in paragraph at lines 515--529
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 515--529
+
+ []
+
+[20] [21]
+Overfull \hbox (23.30176pt too wide) in paragraph at lines 534--535
+\T1/lmr/m/n/12 Variablen sind wie schon in Ka-pi-tel 2.6.1 be-schrie-ben, ei-ne
  Er-wei-te-rung der CSS-Präprozessoren.
  []
 
-[23]
-Underfull \hbox (badness 10000) in paragraph at lines 579--583
+[22]
+Underfull \hbox (badness 10000) in paragraph at lines 584--588
 
  []
 
-[24] [25] [26] [27] [28] [29]
+[23] [24] [25] [26] [27] [28]
 LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 772.
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 778.
 
-Underfull \hbox (badness 10000) in paragraph at lines 778--779
+Underfull \hbox (badness 10000) in paragraph at lines 784--785
 
  []
 
-[30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 821--823
+[29] [30] [31]
+Underfull \hbox (badness 10000) in paragraph at lines 827--829
 
  []
 
 [32]
-Underfull \hbox (badness 10000) in paragraph at lines 852--860
+Underfull \hbox (badness 10000) in paragraph at lines 858--866
 
  []
 
 [33]
-Underfull \hbox (badness 10000) in paragraph at lines 902--911
+Underfull \hbox (badness 10000) in paragraph at lines 908--917
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 902--911
+Underfull \hbox (badness 10000) in paragraph at lines 908--917
 
  []
 
 [34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 966--971
+Underfull \hbox (badness 10000) in paragraph at lines 972--980
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 966--971
+Underfull \hbox (badness 10000) in paragraph at lines 972--980
 
  []
 
@@ -1419,9 +1431,9 @@ Package logreq Info: Writing requests to 'Bakk.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
  18402 strings out of 493921
- 292105 string characters out of 3147258
- 913466 words of memory out of 3000000
- 20750 multiletter control sequences out of 15000+200000
+ 292101 string characters out of 3147258
+ 913470 words of memory out of 3000000
+ 20751 multiletter control sequences out of 15000+200000
  66338 words of font info for 50 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  52i,9n,52p,882b,4749s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1436,9 +1448,9 @@ ic/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C
 iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
 lmtt12.pfb>
-Output written on Bakk.pdf (49 pages, 2457455 bytes).
+Output written on Bakk.pdf (49 pages, 2458747 bytes).
 PDF statistics:
- 1180 PDF objects out of 1200 (max. 8388607)
- 584 named destinations out of 1000 (max. 500000)
+ 1179 PDF objects out of 1200 (max. 8388607)
+ 583 named destinations out of 1000 (max. 500000)
  338 words of extra memory for PDF output out of 10000 (max. 10000000)
 
