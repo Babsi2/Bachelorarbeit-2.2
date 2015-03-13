@@ -23,7 +23,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {12}Mixin und Ausgabe ohne Mixin}{15}{lstlisting.12}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {13}Mixin mit Argument}{16}{lstlisting.13}
+\contentsline {lstlisting}{\numberline {13}Mixin mit Argument}{15}{lstlisting.13}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {14}Mixin mit @arguments}{16}{lstlisting.14}
 \defcounter {refsection}{0}\relax 
@@ -31,46 +31,46 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {16}Vererbung mit extend}{17}{lstlisting.16}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {17}Verwendung Variable in less}{23}{lstlisting.17}
+\contentsline {lstlisting}{\numberline {17}Verwendung Variable in less}{22}{lstlisting.17}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {18}Verwendung Variable in sass}{23}{lstlisting.18}
+\contentsline {lstlisting}{\numberline {18}Verwendung Variable in sass}{22}{lstlisting.18}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {19}Verwendung Variable in stylus}{24}{lstlisting.19}
+\contentsline {lstlisting}{\numberline {19}Verwendung Variable in stylus}{23}{lstlisting.19}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {20}Verwendung Mixin in Less}{25}{lstlisting.20}
+\contentsline {lstlisting}{\numberline {20}Verwendung Mixin in Less}{24}{lstlisting.20}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {21}Verwendung Mixin in Sass}{25}{lstlisting.21}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {22}Verwendung Mixin in Stylus}{26}{lstlisting.22}
+\contentsline {lstlisting}{\numberline {22}Verwendung Mixin in Stylus}{25}{lstlisting.22}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {23}Verwendung Mixin in Stylus}{26}{lstlisting.23}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {24}ARGB in Less}{28}{lstlisting.24}
+\contentsline {lstlisting}{\numberline {24}ARGB in Less}{27}{lstlisting.24}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {25}Saturation in Less}{28}{lstlisting.25}
+\contentsline {lstlisting}{\numberline {25}Saturation in Less}{27}{lstlisting.25}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {26}Fadein in Less}{28}{lstlisting.26}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {27}Mix in Less}{29}{lstlisting.27}
+\contentsline {lstlisting}{\numberline {27}Mix in Less}{28}{lstlisting.27}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {28}Average in Less}{29}{lstlisting.28}
+\contentsline {lstlisting}{\numberline {28}Average in Less}{28}{lstlisting.28}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {29}Funktionen in Less}{29}{lstlisting.29}
+\contentsline {lstlisting}{\numberline {29}Funktionen in Less}{28}{lstlisting.29}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {30}Verwendung Funktion in Sass}{29}{lstlisting.30}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {31}Verwendung Funktion in Stylus}{30}{lstlisting.31}
+\contentsline {lstlisting}{\numberline {31}Verwendung Funktion in Stylus}{29}{lstlisting.31}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {32}Vererbung in Less}{30}{lstlisting.32}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {33}Vererbung in Sass}{31}{lstlisting.33}
+\contentsline {lstlisting}{\numberline {33}Vererbung in Sass}{30}{lstlisting.33}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {34}main.scss}{32}{lstlisting.34}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {35}package.json}{33}{lstlisting.35}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {36}gruntfile.js}{34}{lstlisting.36}
+\contentsline {lstlisting}{\numberline {36}gruntfile.js}{33}{lstlisting.36}
 \defcounter {refsection}{0}\relax 
-\contentsline {lstlisting}{\numberline {37}index.js}{35}{lstlisting.37}
+\contentsline {lstlisting}{\numberline {37}index.js}{34}{lstlisting.37}
 \defcounter {refsection}{0}\relax 
 \contentsline {lstlisting}{\numberline {38}index.js}{36}{lstlisting.38}
