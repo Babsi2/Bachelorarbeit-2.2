@@ -1,15 +1,18 @@
 [1] 554906f9.pm:318> INFO - This is Biber 1.8
-[3] 554906f9.pm:321> INFO - Logfile is 'bakk.blg'
-[268] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
-[269] f955f23e.pm:333> INFO - Reading 'bakk.bcf'
-[560] f955f23e.pm:630> INFO - Found 19 citekeys in bib section 0
-[707] f955f23e.pm:3053> INFO - Processing section 0
-[805] f955f23e.pm:3190> INFO - Looking for bibtex format file 'D://FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bibliography.bib' for section 0
-[822] 051dfd95.pm:937> INFO - Decoding LaTeX character macros into UTF-8
-[830] 051dfd95.pm:812> INFO - Found BibTeX data source 'D://FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bibliography.bib'
-[1425] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'level = 4' with 'level = 2'
-[1426] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
-[1428] f955f23e.pm:2945> INFO - Sorting 'entry' list 'cms' keys
-[1430] f955f23e.pm:2949> INFO - No sort tailoring available for locale 'English_United States.1252'
-[1600] f22c0d73.pm:482> INFO - Writing 'bakk.bbl' with encoding 'UTF-8'
-[1609] f22c0d73.pm:555> INFO - Output to bakk.bbl
+[2] 554906f9.pm:321> INFO - Logfile is 'bakk.blg'
+[396] biber-MSWIN:272> INFO - === %a %b %e, %Y, %H:%M:%S
+[404] f955f23e.pm:333> INFO - Reading 'bakk.bcf'
+[852] f955f23e.pm:630> INFO - Found 21 citekeys in bib section 0
+[1073] f955f23e.pm:3053> INFO - Processing section 0
+[1219] f955f23e.pm:3190> INFO - Looking for bibtex format file 'D://FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bibliography.bib' for section 0
+[1242] 051dfd95.pm:937> INFO - Decoding LaTeX character macros into UTF-8
+[1254] 051dfd95.pm:812> INFO - Found BibTeX data source 'D://FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bibliography.bib'
+[1491] 2314f2fc.pm:169> WARN - Couldn't determine Last Name for name "developer, chrome" - ignoring name
+[1676] 2314f2fc.pm:169> WARN - The field 'author' in entry 'developer.2013' cannot be null, deleting it
+[2425] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'level = 4' with 'level = 2'
+[2426] f955f23e.pm:2939> INFO - Overriding locale 'English_United States.1252' default tailoring 'variable = shifted' with 'variable = non-ignorable'
+[2426] f955f23e.pm:2945> INFO - Sorting 'entry' list 'cms' keys
+[2427] f955f23e.pm:2949> INFO - No sort tailoring available for locale 'English_United States.1252'
+[2891] f22c0d73.pm:482> INFO - Writing 'bakk.bbl' with encoding 'UTF-8'
+[2916] f22c0d73.pm:555> INFO - Output to bakk.bbl
+[2918] f955f23e.pm:105> INFO - WARNINGS: 2

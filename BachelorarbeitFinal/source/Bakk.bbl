@@ -43,28 +43,6 @@
       \field{title}{Komponentenbasierte Softwareentwicklung: mit MDA, UML und XML}
       \field{year}{2003}
     \endentry
-    \entry{Bracey.2014}{misc}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=4f972679401255f48a0378e33afbf8dc}{Bracey}{B\bibinitperiod}{Kezz}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=4f972679401255f48a0378e33afbf8dc}{Bracey}{B\bibinitperiod}{Kezz}{K\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{4f972679401255f48a0378e33afbf8dc}
-      \strng{fullhash}{4f972679401255f48a0378e33afbf8dc}
-      \field{sortinit}{B}
-      \field{labelyear}{2014}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Why I Choose Stylus}
-      \field{title}{Why I Choose Stylus}
-      \field{urlday}{26}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{year}{2014}
-      \verb{url}
-      \verb http://webdesign.tutsplus.com/articles/why-i-choose-stylus-and-you-should-too--webdesign-18412
-      \endverb
-    \endentry
     \entry{Coyier.2012}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=d33f3a40f4849e0684f177ef73b62f3e}{Coyier}{C\bibinitperiod}{Chris}{C\bibinitperiod}{}{}{}{}}%
@@ -87,49 +65,26 @@
       \verb http://css-tricks.com/sass-vs-less/
       \endverb
     \endentry
-    \entry{Croom.2012}{misc}{}
+    \entry{Frost.2013}{misc}{}
       \name{labelname}{1}{}{%
-        {{uniquename=0,hash=4afcf9e65a72f6edb0147a988eb04b57}{Croom}{C\bibinitperiod}{Johnathan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=689a1fbcd0c358d7a4a4b35ccbbb28c9}{Frost}{F\bibinitperiod}{Brad}{B\bibinitperiod}{}{}{}{}}%
       }
       \name{author}{1}{}{%
-        {{uniquename=0,hash=4afcf9e65a72f6edb0147a988eb04b57}{Croom}{C\bibinitperiod}{Johnathan}{J\bibinitperiod}{}{}{}{}}%
+        {{uniquename=0,hash=689a1fbcd0c358d7a4a4b35ccbbb28c9}{Frost}{F\bibinitperiod}{Brad}{B\bibinitperiod}{}{}{}{}}%
       }
-      \strng{namehash}{4afcf9e65a72f6edb0147a988eb04b57}
-      \strng{fullhash}{4afcf9e65a72f6edb0147a988eb04b57}
-      \field{sortinit}{C}
-      \field{labelyear}{2012}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Sass vs. Less vs. Stylus: Preprocessor Shootout}
-      \field{title}{Sass vs. Less vs. Stylus: Preprocessor Shootout}
-      \field{urlday}{26}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{year}{2012}
-      \verb{url}
-      \verb http://code.tutsplus.com/tutorials/sass-vs-less-vs-stylus-preprocessor-shootout--net-24320
-      \endverb
-    \endentry
-    \entry{Firdaus.}{misc}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=af3b07cf87397b098b9b214b47c224ce}{Firdaus}{F\bibinitperiod}{Thoriq}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=af3b07cf87397b098b9b214b47c224ce}{Firdaus}{F\bibinitperiod}{Thoriq}{T\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{af3b07cf87397b098b9b214b47c224ce}
-      \strng{fullhash}{af3b07cf87397b098b9b214b47c224ce}
+      \strng{namehash}{689a1fbcd0c358d7a4a4b35ccbbb28c9}
+      \strng{fullhash}{689a1fbcd0c358d7a4a4b35ccbbb28c9}
       \field{sortinit}{F}
-      \field{labelyear}{2014}
-      \field{labelmonth}{10}
-      \field{labelday}{26}
-      \field{datelabelsource}{url}
-      \field{labeltitle}{CSS Preprocessors Compared: Sass vs. LESS}
-      \field{title}{CSS Preprocessors Compared: Sass vs. LESS}
-      \field{urlday}{26}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Atomic Design}
+      \field{title}{Atomic Design}
+      \field{urlday}{28}
+      \field{urlmonth}{03}
+      \field{urlyear}{2015}
+      \field{year}{2013}
       \verb{url}
-      \verb http://www.hongkiat.com/blog/sass-vs-less/
+      \verb http://bradfrost.com/blog/post/atomic-web-design/
       \endverb
     \endentry
     \entry{Garsiel.}{misc}{}
@@ -177,6 +132,29 @@
       \verb http://www.sitepoint.com/a-comprehensive-introduction-to-less-mixins/
       \endverb
     \endentry
+    \entry{Giraudel.2014b}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=250a87d639b361ed6ffe06b48950613c}{Giraudel}{G\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=250a87d639b361ed6ffe06b48950613c}{Giraudel}{G\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{250a87d639b361ed6ffe06b48950613c}
+      \strng{fullhash}{250a87d639b361ed6ffe06b48950613c}
+      \field{sortinit}{G}
+      \field{extrayear}{1}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Architecture for a Sass Project}
+      \field{title}{Architecture for a Sass Project}
+      \field{urlday}{27}
+      \field{urlmonth}{03}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://www.sitepoint.com/architecture-sass-project/
+      \endverb
+    \endentry
     \entry{Giraudel.2014}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=250a87d639b361ed6ffe06b48950613c}{Giraudel}{G\bibinitperiod}{Hugo}{H\bibinitperiod}{}{}{}{}}%
@@ -187,6 +165,7 @@
       \strng{namehash}{250a87d639b361ed6ffe06b48950613c}
       \strng{fullhash}{250a87d639b361ed6ffe06b48950613c}
       \field{sortinit}{G}
+      \field{extrayear}{2}
       \field{labelyear}{2014}
       \field{datelabelsource}{}
       \field{labeltitle}{What's the Difference Between Sass and SCSS?}
@@ -197,28 +176,6 @@
       \field{year}{2014}
       \verb{url}
       \verb http://www.sitepoint.com/whats-difference-sass-scss/
-      \endverb
-    \endentry
-    \entry{Hixon.2011}{misc}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=ed4ff49d44047feb28aad1896e9def99}{Hixon}{H\bibinitperiod}{Jeremy}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=ed4ff49d44047feb28aad1896e9def99}{Hixon}{H\bibinitperiod}{Jeremy}{J\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{ed4ff49d44047feb28aad1896e9def99}
-      \strng{fullhash}{ed4ff49d44047feb28aad1896e9def99}
-      \field{sortinit}{H}
-      \field{labelyear}{2011}
-      \field{datelabelsource}{}
-      \field{labeltitle}{An Introduction to Less, and Comparison to Sass}
-      \field{title}{An Introduction to Less, and Comparison to Sass}
-      \field{urlday}{26}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{year}{2011}
-      \verb{url}
-      \verb http://www.smashingmagazine.com/2011/09/09/an-introduction-to-less-and-comparison-to-sass/
       \endverb
     \endentry
     \entry{ITWissen.info.2014}{misc}{}
@@ -268,6 +225,29 @@
       \verb http://www.catswhocode.com/blog/8-css-preprocessors-to-speed-up-development-time#disqus_thread
       \endverb
     \endentry
+    \entry{LearnBoost.2010a}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=6b00fddd908805a42a618480b20c7ea0}{LearnBoost}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=6b00fddd908805a42a618480b20c7ea0}{LearnBoost}{L\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{6b00fddd908805a42a618480b20c7ea0}
+      \strng{fullhash}{6b00fddd908805a42a618480b20c7ea0}
+      \field{sortinit}{L}
+      \field{extrayear}{1}
+      \field{labelyear}{2010}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Stylus: Expressive, dynamic, robust CSS}
+      \field{title}{Stylus: Expressive, dynamic, robust CSS}
+      \field{urlday}{21}
+      \field{urlmonth}{02}
+      \field{urlyear}{2015}
+      \field{year}{2010}
+      \verb{url}
+      \verb https://github.com/stylus/stylus/blob/master/lib/parser.js
+      \endverb
+    \endentry
     \entry{LearnBoost.2010}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=6b00fddd908805a42a618480b20c7ea0}{LearnBoost}{L\bibinitperiod}{}{}{}{}{}{}}%
@@ -278,6 +258,7 @@
       \strng{namehash}{6b00fddd908805a42a618480b20c7ea0}
       \strng{fullhash}{6b00fddd908805a42a618480b20c7ea0}
       \field{sortinit}{L}
+      \field{extrayear}{2}
       \field{labelyear}{2010}
       \field{datelabelsource}{}
       \field{labeltitle}{Stylus: Expressive, dynamic, robust CSS}
@@ -288,28 +269,6 @@
       \field{year}{2010}
       \verb{url}
       \verb http://learnboost.github.io/stylus/
-      \endverb
-    \endentry
-    \entry{Page.2013}{misc}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=d0ab7624fab972e816b631b48f89a68a}{Page}{P\bibinitperiod}{Luke}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=d0ab7624fab972e816b631b48f89a68a}{Page}{P\bibinitperiod}{Luke}{L\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{d0ab7624fab972e816b631b48f89a68a}
-      \strng{fullhash}{d0ab7624fab972e816b631b48f89a68a}
-      \field{sortinit}{P}
-      \field{labelyear}{2013}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Less vs. Sass vs. Stylus}
-      \field{title}{Less vs. Sass vs. Stylus}
-      \field{urlday}{26}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{year}{2013}
-      \verb{url}
-      \verb http://www.scottlogic.com/blog/2013/03/08/less-vs-sass-vs-stylus.html
       \endverb
     \endentry
     \entry{Peter.2012}{misc}{}
@@ -376,6 +335,76 @@
       \verb http://www.lesscss.de/
       \endverb
     \endentry
+    \entry{Sellier.2013b}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=50a0ebf2706193684b568f205708951e}{Sellier}{S\bibinitperiod}{Alexis}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=50a0ebf2706193684b568f205708951e}{Sellier}{S\bibinitperiod}{Alexis}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{50a0ebf2706193684b568f205708951e}
+      \strng{fullhash}{50a0ebf2706193684b568f205708951e}
+      \field{sortinit}{S}
+      \field{extrayear}{1}
+      \field{labelyear}{2015}
+      \field{labelmonth}{03}
+      \field{labelday}{21}
+      \field{datelabelsource}{url}
+      \field{labeltitle}{Less Functions}
+      \field{title}{Less Functions}
+      \field{urlday}{21}
+      \field{urlmonth}{03}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb http://lesscss.org/functions/
+      \endverb
+    \endentry
+    \entry{Sellier.2013a}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=50a0ebf2706193684b568f205708951e}{Sellier}{S\bibinitperiod}{Alexis}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=50a0ebf2706193684b568f205708951e}{Sellier}{S\bibinitperiod}{Alexis}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{50a0ebf2706193684b568f205708951e}
+      \strng{fullhash}{50a0ebf2706193684b568f205708951e}
+      \field{sortinit}{S}
+      \field{extrayear}{2}
+      \field{labelyear}{2015}
+      \field{labelmonth}{03}
+      \field{labelday}{21}
+      \field{datelabelsource}{url}
+      \field{labeltitle}{Less Parser}
+      \field{title}{Less Parser}
+      \field{urlday}{21}
+      \field{urlmonth}{03}
+      \field{urlyear}{2015}
+      \verb{url}
+      \verb https://raw.githubusercontent.com/less/less.js/master/lib/less/parser/parser.js
+      \endverb
+    \endentry
+    \entry{Sitnik.2013}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=d373fd3b9fc4442ff1c6ae0930e7862f}{Sitnik}{S\bibinitperiod}{Andrey}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=d373fd3b9fc4442ff1c6ae0930e7862f}{Sitnik}{S\bibinitperiod}{Andrey}{A\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{d373fd3b9fc4442ff1c6ae0930e7862f}
+      \strng{fullhash}{d373fd3b9fc4442ff1c6ae0930e7862f}
+      \field{sortinit}{S}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Autoprefixer: A Postprocessor for Dealing with Vendor Prefixes in the Best Possible Way}
+      \field{title}{Autoprefixer: A Postprocessor for Dealing with Vendor Prefixes in the Best Possible Way}
+      \field{urlday}{28}
+      \field{urlmonth}{03}
+      \field{urlyear}{2015}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://css-tricks.com/autoprefixer/
+      \endverb
+    \endentry
     \entry{thecorelessteam.}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=771c43d32f4a8d8ddcdb9c617b9953b2}{{the\bibnamedelimb core\bibnamedelimb less\bibnamedelimb team}}{t\bibinitperiod}{}{}{}{}{}{}}%
@@ -399,6 +428,40 @@
       \verb http://lesscss.org/features/
       \endverb
     \endentry
+    \entry{developer.2013}{misc}{}
+      \field{sortinit}{W}
+      \field{labelyear}{2013}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Working with CSS Preprocessors}
+      \field{title}{Working with CSS Preprocessors}
+      \field{year}{2013}
+      \verb{url}
+      \verb https://developer.chrome.com/devtools/docs/css-preprocessors
+      \endverb
+    \endentry
+    \entry{Yard.2014a}{misc}{}
+      \name{labelname}{1}{}{%
+        {{uniquename=0,hash=351cda5a720d59953a9f3d69bd2b3002}{Yard}{Y\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=351cda5a720d59953a9f3d69bd2b3002}{Yard}{Y\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{351cda5a720d59953a9f3d69bd2b3002}
+      \strng{fullhash}{351cda5a720d59953a9f3d69bd2b3002}
+      \field{sortinit}{Y}
+      \field{extrayear}{1}
+      \field{labelyear}{2014}
+      \field{datelabelsource}{}
+      \field{labeltitle}{Sass: Documentation}
+      \field{title}{Sass: Documentation}
+      \field{urlday}{24}
+      \field{urlmonth}{03}
+      \field{urlyear}{2015}
+      \field{year}{2014}
+      \verb{url}
+      \verb http://sass-lang.com/documentation/Sass/SCSS/Parser.html
+      \endverb
+    \endentry
     \entry{Yard.2014}{misc}{}
       \name{labelname}{1}{}{%
         {{uniquename=0,hash=351cda5a720d59953a9f3d69bd2b3002}{Yard}{Y\bibinitperiod}{}{}{}{}{}{}}%
@@ -409,6 +472,7 @@
       \strng{namehash}{351cda5a720d59953a9f3d69bd2b3002}
       \strng{fullhash}{351cda5a720d59953a9f3d69bd2b3002}
       \field{sortinit}{Y}
+      \field{extrayear}{2}
       \field{labelyear}{2014}
       \field{datelabelsource}{}
       \field{labeltitle}{Sass: Documentation}
@@ -419,28 +483,6 @@
       \field{year}{2014}
       \verb{url}
       \verb http://sass-lang.com/documentation/file.SASS_REFERENCE.html#syntax
-      \endverb
-    \endentry
-    \entry{ZingDesign.2014}{misc}{}
-      \name{labelname}{1}{}{%
-        {{uniquename=0,hash=65372543b1032064c75c9ddc328d8aeb}{Zing\bibnamedelima Design}{Z\bibinitperiod\bibinitdelim D\bibinitperiod}{Sam}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \name{author}{1}{}{%
-        {{uniquename=0,hash=65372543b1032064c75c9ddc328d8aeb}{Zing\bibnamedelima Design}{Z\bibinitperiod\bibinitdelim D\bibinitperiod}{Sam}{S\bibinitperiod}{}{}{}{}}%
-      }
-      \strng{namehash}{65372543b1032064c75c9ddc328d8aeb}
-      \strng{fullhash}{65372543b1032064c75c9ddc328d8aeb}
-      \field{sortinit}{Z}
-      \field{labelyear}{2014}
-      \field{datelabelsource}{}
-      \field{labeltitle}{Less vs. Sass}
-      \field{title}{Less vs. Sass}
-      \field{urlday}{26}
-      \field{urlmonth}{10}
-      \field{urlyear}{2014}
-      \field{year}{2014}
-      \verb{url}
-      \verb http://www.zingdesign.com/less-vs-sass-its-time-to-switch-to-sass/
       \endverb
     \endentry
   \endsortlist

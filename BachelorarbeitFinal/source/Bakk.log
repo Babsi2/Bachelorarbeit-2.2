@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  13 MAR 2015 21:33
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2014.4.30)  31 MAR 2015 22:19
 entering extended mode
 **D:/FH/Sem5.2/Bakk*2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex
 ("D:/FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/Bakk.tex"
@@ -1173,7 +1173,7 @@ LaTeX Info: Redefining \nameref on input line 115.
 \@outlinefile=\write5
 
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Title.tex"
-<images/FHSLogo.jpg, id=159, 1047.915pt x 289.08pt>
+<images/FHSLogo.jpg, id=199, 1047.915pt x 289.08pt>
 File: images/FHSLogo.jpg Graphic file (type jpg)
  <use images/FHSLogo.jpg>
 Package pdftex.def Info: images/FHSLogo.jpg used on input line 4.
@@ -1226,13 +1226,36 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Summary.tex
 ") [2]
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Abstract.te
-x") [3]
+x"
+Underfull \hbox (badness 10000) in paragraph at lines 4--8
+
+ []
+
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 11.
+("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)) [3]
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.toc"
 [4])
 \tf@toc=\write6
  [5]
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Body.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 12--20
+Underfull \hbox (badness 10000) in paragraph at lines 9--9
+[][][]\T1/lmr/m/n/10 Google Trends zum Ver-gleich von Su-ch-in-ter-es-se zu Les
+s, Sass, Sty-lus und CSS:
+ []
+
+
+<images/GoogleTrends_less_vs_sass_vs_stylus_vs_css.jpg, id=290, 866.23625pt x 5
+01.875pt>
+File: images/GoogleTrends_less_vs_sass_vs_stylus_vs_css.jpg Graphic file (type 
+jpg)
+ <use images/GoogleTrends_less_vs_sass_vs_stylus_vs_css.jpg>
+Package pdftex.def Info: images/GoogleTrends_less_vs_sass_vs_stylus_vs_css.jpg 
+used on input line 12.
+(pdftex.def)             Requested size: 392.88243pt x 227.62204pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 4--26
 
  []
 
@@ -1240,94 +1263,89 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.20 \newpage
-              [1
+l.26 \subsection
+                {Forschungsfrage} [1
 
-]
-LaTeX Font Info:    Try loading font information for T1+lmtt on input line 30.
+ <D:/FH/Sem5.2/Bakk 2/Bachelorarbeit-2.2/BachelorarbeitFinal/source/images/Goog
+leTrends_less_vs_sass_vs_stylus_vs_css.jpg>]
+Overfull \hbox (17.29858pt too wide) in paragraph at lines 39--49
+\T1/lmr/m/n/12 Die wei-te-ren Un-ter-ka-pi-tel 2.3 bis 2.5 er-läu-tern im Spe-z
+i-el-len die ge-nann-ten CSS-Präprozessoren
+ []
+
+[2] [3]
+LaTeX Font Info:    Try loading font information for T1+lmtt on input line 59.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmtt.fd"
 File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-[2] [3]
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 97.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\ts1lmr.fd"
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Underfull \hbox (badness 10000) in paragraph at lines 104--107
+) [4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 133--136
 
  []
 
-[4]
+[6]
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 113.
-
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 116.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 142.
 
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 119.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 145.
 
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 122.
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 148.
 
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 125.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 127--129
+Underfull \hbox (badness 10000) in paragraph at lines 150--152
 
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 132--134
-
- []
-
-[5] [6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 172--176
+[7]
+Underfull \hbox (badness 10000) in paragraph at lines 191--198
 
  []
 
-[8] [9] [10] [11]
-Underfull \hbox (badness 10000) in paragraph at lines 278--279
+[8]
+LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 214.
+ [9]
+Underfull \hbox (badness 10000) in paragraph at lines 244--246
 
  []
 
-[12]
-
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 292.
-
-[13] [14]
-Underfull \hbox (badness 10000) in paragraph at lines 355--358
+[10]
+Underfull \hbox (badness 10000) in paragraph at lines 259--263
 
  []
 
-[15] [16] [17]
-Underfull \hbox (badness 10000) in paragraph at lines 459--464
+[11] [12]
+Underfull \hbox (badness 10000) in paragraph at lines 295--299
 
  []
 
-[18]
+[13]
+Underfull \hbox (badness 10000) in paragraph at lines 304--309
 
-Package biblatex-chicago Warning: Empty Ibidem citation on input line 498.
+ []
+
+[14]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 343.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--501
+Underfull \hbox (badness 10000) in paragraph at lines 319--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--501
+Underfull \hbox (badness 10000) in paragraph at lines 319--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--501
+Underfull \hbox (badness 10000) in paragraph at lines 319--346
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 474--501
+Underfull \hbox (badness 10000) in paragraph at lines 319--346
 
  []
 
@@ -1335,95 +1353,143 @@ Underfull \hbox (badness 10000) in paragraph at lines 474--501
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 502--503
+Underfull \hbox (badness 10000) in paragraph at lines 347--348
 
  []
+
+[15]
+Underfull \hbox (badness 10000) in paragraph at lines 360--374
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 360--374
+
+ []
+
+[16] [17] [18]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 425.
 
 [19]
-Underfull \hbox (badness 10000) in paragraph at lines 515--529
+Underfull \hbox (badness 10000) in paragraph at lines 446--449
+
+ []
+
+[20]
+
+Package biblatex-chicago Warning: Empty Ibidem citation on input line 505.
+
+[21] [22] [23] [24] [25] [26] [27]
+Underfull \hbox (badness 10000) in paragraph at lines 681--682
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 515--529
-
- []
-
-[20] [21]
-Overfull \hbox (23.30176pt too wide) in paragraph at lines 534--535
+Overfull \hbox (23.30176pt too wide) in paragraph at lines 690--691
 \T1/lmr/m/n/12 Variablen sind wie schon in Ka-pi-tel 2.6.1 be-schrie-ben, ei-ne
  Er-wei-te-rung der CSS-Präprozessoren.
  []
 
-[22]
-Underfull \hbox (badness 10000) in paragraph at lines 584--588
+[28] [29]
+Underfull \hbox (badness 10000) in paragraph at lines 739--744
 
  []
 
-[23] [24] [25] [26] [27] [28]
-LaTeX Font Info:    Font shape `T1/lmtt/bx/n' in size <12> not available
-(Font)              Font shape `T1/lmtt/b/n' tried instead on input line 778.
-
-Underfull \hbox (badness 10000) in paragraph at lines 784--785
+[30] [31] [32] [33] [34] [35]
+Underfull \hbox (badness 10000) in paragraph at lines 941--942
 
  []
 
-[29] [30] [31]
-Underfull \hbox (badness 10000) in paragraph at lines 827--829
+[36] [37] [38] [39] [40] [41]
+Underfull \hbox (badness 10000) in paragraph at lines 1123--1125
 
  []
 
-[32]
-Underfull \hbox (badness 10000) in paragraph at lines 857--865
+[42]
+Underfull \hbox (badness 10000) in paragraph at lines 1149--1157
 
  []
 
-[33]
-Underfull \hbox (badness 10000) in paragraph at lines 907--916
+[43]
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1209
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 907--916
+Underfull \hbox (badness 10000) in paragraph at lines 1202--1209
 
  []
 
-[34] [35]
-Underfull \hbox (badness 10000) in paragraph at lines 971--978
+[44] [45]
+Underfull \hbox (badness 10000) in paragraph at lines 1264--1267
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 971--978
+Underfull \hbox (badness 10000) in paragraph at lines 1264--1267
 
  []
 
-[36]) [37]
+[46] [47] [48]
+Underfull \hbox (badness 10000) in paragraph at lines 1370--1373
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 1374--1378
+
+ []
+
+[49]
+Underfull \hbox (badness 10000) in paragraph at lines 1405--1406
+
+ []
+
+[50] [51]
+Overfull \hbox (2.18561pt too wide) in paragraph at lines 1438--1440
+\T1/lmr/m/n/12 Diese Er-wei-te-run-gen wur-den in Ka-pi-tel 5 an-hand der be-re
+its ge-nann-ten CSS-Präprozessoren
+ []
+
+
+Overfull \hbox (0.86525pt too wide) in paragraph at lines 1443--1444
+[]\T1/lmr/m/n/12 Schlieÿlich wur-de nach den theo-re-ti-schen Aus-füh-run-gen z
+um The-ma CSS-Präprozessoren,
+ []
+
+[52]) [53]
 LaTeX Font Info:    Try loading font information for T1+lmss on input line 144.
 
  ("C:\Program Files\MiKTeX 2.9\tex\latex\lm\t1lmss.fd"
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
-) [38
+) [54
 
 ]
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lof")
 \tf@lof=\write7
 
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lol"
-[39])
+[55])
 \tf@lol=\write8
 
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Bakk.lot")
 \tf@lot=\write9
 
-[40] [41] [42]
+[56] [57]
+Underfull \hbox (badness 3302) in paragraph at lines 161--161
+[][]\T1/lmr/m/n/12 Sellier, Ale-xis. 2015b. \T1/lmr/m/it/12 Less Par-ser. \T1/l
+mr/m/n/12 Be-sucht am 21. März. [][]$\T1/lmtt/m/n/12 https : / / raw .$
+ []
+
+[58] [59]
 ("D:\FH\Sem5.2\Bakk 2\Bachelorarbeit-2.2\BachelorarbeitFinal\source\Attachment.
-tex") [43
+tex") [60
 
 ]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 164.
@@ -1436,14 +1502,14 @@ aux"))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 164.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 164.
 Package rerunfilecheck Info: File `Bakk.out' has not changed.
-(rerunfilecheck)             Checksum: 838C0ECF0A89FB9A1EA7A3B29CAAEC21;2416.
+(rerunfilecheck)             Checksum: 89FD86ABA28ACA79E087731681DACB34;3055.
 Package logreq Info: Writing requests to 'Bakk.run.xml'.
  ) 
 Here is how much of TeX's memory you used:
- 18402 strings out of 493921
- 292101 string characters out of 3147258
- 912470 words of memory out of 3000000
- 20751 multiletter control sequences out of 15000+200000
+ 18828 strings out of 493921
+ 298015 string characters out of 3147258
+ 937736 words of memory out of 3000000
+ 20891 multiletter control sequences out of 15000+200000
  66338 words of font info for 50 fonts, out of 3000000 for 9000
  845 hyphenation exceptions out of 8191
  52i,9n,52p,882b,4749s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1458,9 +1524,9 @@ ic/lm/lmr8.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C
 iKTeX 2.9/fonts/type1/public/lm/lmssbx10.pfb><C:/Program Files/MiKTeX 2.9/fonts
 /type1/public/lm/lmtk10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/lm/
 lmtt12.pfb>
-Output written on Bakk.pdf (49 pages, 2458307 bytes).
+Output written on Bakk.pdf (66 pages, 2636852 bytes).
 PDF statistics:
- 1179 PDF objects out of 1200 (max. 8388607)
- 583 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 1652 PDF objects out of 1728 (max. 8388607)
+ 868 named destinations out of 1000 (max. 500000)
+ 423 words of extra memory for PDF output out of 10000 (max. 10000000)
 
